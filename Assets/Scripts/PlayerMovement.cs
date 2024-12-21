@@ -30,10 +30,10 @@ public class PlayerMovement : MonoBehaviour
     private bool IsBlocked(Vector3 direction)
     {
         RaycastHit2D hit = Physics2D.CircleCast(_tr.position, 
-                                        _sprite.size.x * 0.5f, 
-                                                direction, 
-                                            _checkDistance,
-                                            _obstacleLayer);
+                                                _sprite.size.x * 0.5f, 
+                                                direction,
+                                                _checkDistance, 
+                                                _obstacleLayer);
 
         return hit.collider != null;
     }

@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
 
     public bool Typing { get; private set; }
 
-    public void ChangeDialogue(string text, string name)
+    public void ChangeDialogue(string text, string speakerName)
     {
         if (text.Length <= 0)
         { 
@@ -24,7 +24,7 @@ public class UIManager : MonoBehaviour
         Debug.Log(text + " " + Typing);
         _dialogue.SetActive(true);
         _sentence = text;
-        _name.text = name;
+        _name.text = speakerName;
         StartCoroutine(TypeSentence());
     }
 
