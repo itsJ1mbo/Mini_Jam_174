@@ -112,7 +112,8 @@ public class DungeonMaster : MonoBehaviour
     {
         //hacer una animacion to guapa para mostrar el paso del tiempo
         _currentTimePeriod++;
-        UpdateGameState();
+        if(_currentTimePeriod != TimePeriod.EndGame)
+            UpdateGameState();
         _timePeriodTimer = 0.0f;
         /*Debug.Log(_currentTimePeriod);
         Debug.Log(_currentFlags.ToBinaryString());*/

@@ -38,6 +38,7 @@ public class Guion : MonoBehaviour
             Talking = false;
             activeStory.ResetState();
             _player.ToggleMove();
+            DungeonMaster.Instance.ToggleTimer();
             _ui.OnDialogueEnd();
         }
     }

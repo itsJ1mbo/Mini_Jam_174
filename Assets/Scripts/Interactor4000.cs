@@ -42,6 +42,7 @@ public class Interactor4000 : MonoBehaviour
         else
         {
             GetComponent<PlayerMovement>().ToggleMove();
+            DungeonMaster.Instance.ToggleTimer();
             g.StartDialogue();
         }
     }
