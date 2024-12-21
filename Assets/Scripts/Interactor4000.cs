@@ -4,11 +4,15 @@ using UnityEngine.InputSystem;
 
 public class Interactor4000 : MonoBehaviour
 {
-    [SerializeField] private UIManager _ui;
+    private UIManager _ui;
     
     private bool _inRange = false;
     private GameObject _obj;
 
+    void Start()
+    {
+        _ui = DungeonMaster.Instance.GetUIManager();
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         _inRange = true;

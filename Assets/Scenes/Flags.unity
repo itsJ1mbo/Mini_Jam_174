@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 115897490}
   - component: {fileID: 115897489}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,7 +217,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba928adc39dee7143b3efb42bc422932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ui: {fileID: 1512585527}
 --- !u!114 &115897492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1483,6 +1482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40561afbc83e8734a97a06255d24cf27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uiManager: {fileID: 1512585527}
   _timePeriodLength: 0.1
 --- !u!4 &2128779081
 Transform:

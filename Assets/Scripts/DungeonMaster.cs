@@ -35,6 +35,9 @@ public class DungeonMaster : MonoBehaviour
 {
     private const float MINUTE_LENGTH = 60.0F;
 
+    [SerializeField]
+    private UIManager _uiManager;
+    
     #region Variables
     public static DungeonMaster Instance { get; private set; }
     /// <summary>
@@ -97,6 +100,7 @@ public class DungeonMaster : MonoBehaviour
     #endregion
     
     #region Public Functions
+    public UIManager GetUIManager() { return _uiManager; }
     public void SetFlag(Flags flag) { _currentFlags |= flag; }
     public void RemoveFlag (Flags flag) { _currentFlags &= ~flag; }
     public Flags GetFlag () { return _currentFlags; } 

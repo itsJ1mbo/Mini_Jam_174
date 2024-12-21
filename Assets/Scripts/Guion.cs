@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class Guion : MonoBehaviour
 {
-    [SerializeField] private UIManager _ui;
     [SerializeField] private PlayerMovement _player;
     
     // Set this file to your compiled json asset
     [SerializeField] private List<TextAsset> _textAssets;
     private List<Story> _inkStories;
+    
+    private UIManager _ui;
     public bool Talking { get; private set; }
 
     public void StartDialogue()
@@ -72,8 +73,8 @@ public class Guion : MonoBehaviour
 
     private void Start()
     {
+        _ui = DungeonMaster.Instance.GetUIManager();
         _inkStories = new List<Story>();
-
         SetStories();
     }
 }
