@@ -31,6 +31,8 @@ public class Interactor4000 : MonoBehaviour
             {
                 g.NextLine();
             }
+            if(!_obj.GetComponent<Guion>() && _obj.GetComponent<FlagInteraction>())
+                _obj.GetComponent<FlagInteraction>().activateFlag();
         }
     }
 }

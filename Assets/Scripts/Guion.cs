@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Ink.Runtime;
 using UnityEngine;
 
@@ -32,6 +33,10 @@ public class Guion : MonoBehaviour
         foreach (TextAsset t in _textAssets)
         {
             _inkStories.Add(new Story(t.text));
+            _inkStories.Last().BindExternalFunction("ActivateFlag", () =>
+            {
+                gameObject.GetComponent<FlagInteraction>().activateFlag();
+            });
         }
     }
 
