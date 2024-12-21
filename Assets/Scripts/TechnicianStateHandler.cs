@@ -17,7 +17,10 @@ public class TechnicianStateHandler : StateHandler
                     transform.position = positions[1];
                 break;
             case TimePeriod.Evening:
-                transform.position = positions[2];
+                if(DungeonMaster.Instance.GetFlag().HasFlag(Flags.TechnicianDead))
+                    transform.position = positions[3];
+                else
+                    transform.position = positions[2];
                 break;
             default:
                 throw new ArgumentOutOfRangeException();

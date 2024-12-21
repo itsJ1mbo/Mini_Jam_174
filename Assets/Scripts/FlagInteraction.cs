@@ -6,9 +6,14 @@ public class FlagInteraction : MonoBehaviour
     [SerializeField]
     private Flags _flag = Flags.None;
 
+    [SerializeField] private bool _disappearOnInteraction = false;
     public void activateFlag()
     {
-        Debug.Log(DungeonMaster.Instance);
         DungeonMaster.Instance.SetFlag(_flag);
+        if (_disappearOnInteraction)
+        {
+            DungeonMaster.Instance.RemoveEntity(this.gameObject);
+            Destroy(this.gameObject);
+        }
     }
 }
