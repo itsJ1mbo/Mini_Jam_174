@@ -26,12 +26,24 @@ public class Interactor4000 : MonoBehaviour
         if (_inRange)
         {
             if (_obj.gameObject.TryGetComponent<Guion>(out Guion g))
-            {
-                if (_ui.Typing) _ui.Skip();
-                else g.NextLine();
-            }
+                Dialogue(g);
             if(!_obj.GetComponent<Guion>() && _obj.GetComponent<FlagInteraction>())
                 _obj.GetComponent<FlagInteraction>().activateFlag();
         }
+    }
+
+    private void Dialogue(Guion g)
+    {
+        if (g.Talking)
+        {
+            if (_ui.Typing) _ui.Skip();
+            else g.NextLine();
+        }
+        else
+        {
+            GetComponent<PlayerMovement>().ToggleMove();
+            g.StartDialogue();
+        }
+        
     }
 }

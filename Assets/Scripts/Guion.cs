@@ -10,7 +10,20 @@ public class Guion : MonoBehaviour
     // Set this file to your compiled json asset
     [SerializeField] private List<TextAsset> _textAssets;
     private List<Story> _inkStories;
+    public bool Talking { get; private set; }
 
+    public void StartDialogue()
+    {
+        Talking = true;
+        
+        Story activeStory = _inkStories[0];
+        
+        if (activeStory.canContinue)
+        {
+            _ui.ChangeDialogue(activeStory.Continue());
+        }
+    }
+    
     public void NextLine()
     {
         Vector2 point;
@@ -18,11 +31,11 @@ public class Guion : MonoBehaviour
         
         if (activeStory.canContinue)
         {
-            Debug.Log("LINEA");
             _ui.ChangeDialogue(activeStory.Continue());
         }
         else
         {
+            Talking = false;
             activeStory.ResetState();
             _ui.OnDialogueEnd();
         }
