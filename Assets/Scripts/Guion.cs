@@ -46,10 +46,13 @@ public class Guion : MonoBehaviour
         foreach (TextAsset t in _textAssets)
         {
             _inkStories.Add(new Story(t.text));
-            _inkStories.Last().BindExternalFunction("ActivateFlag", () =>
+            if (gameObject.GetComponent<FlagInteraction>())
             {
-                gameObject.GetComponent<FlagInteraction>().activateFlag();
-            });
+                _inkStories.Last().BindExternalFunction("ActivateFlag", () =>
+                {
+                    gameObject.GetComponent<FlagInteraction>().activateFlag();
+                });
+            }
         }
     }
 

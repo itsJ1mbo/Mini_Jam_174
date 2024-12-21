@@ -27,7 +27,8 @@ public enum TimePeriod
 {
     Morning = 0,
     Afternoon = 1,
-    Evening = 2
+    Evening = 2,
+    EndGame,
 }
 
 public class DungeonMaster : MonoBehaviour
@@ -85,7 +86,7 @@ public class DungeonMaster : MonoBehaviour
 
     void Update()
     {
-        if (_runTimer)
+        if (_runTimer && _currentTimePeriod == TimePeriod.EndGame)
         {
             _timePeriodTimer += Time.deltaTime;
             //Debug.Log(_timePeriodTimer);
@@ -125,8 +126,7 @@ public class DungeonMaster : MonoBehaviour
     {
         foreach (GameObject entity in _entities)
         {
-            //Llamar a la cosa que actualice a cada personaje
-            //entity.GetComponent<>().updateState(_currentTimePeriod, _currentFlags);
+            entity.GetComponent<StateHandler>().UpdateState(_currentTimePeriod, _currentFlags);
         }
     }
 
