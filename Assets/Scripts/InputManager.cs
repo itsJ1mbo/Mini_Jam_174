@@ -15,7 +15,6 @@ public class InputManager : MonoBehaviour
         _input.Player.Move.canceled += _playerMovement.OnMove;
 
         _input.Player.Interact.performed += _interactor.OnInteract;
-        _input.Player.Interact.canceled += _interactor.OnInteract;
         
         _input.Enable();
     }
@@ -26,7 +25,6 @@ public class InputManager : MonoBehaviour
         _input.Player.Move.canceled -= _playerMovement.OnMove;
         
         _input.Player.Interact.performed -= _interactor.OnInteract;
-        _input.Player.Interact.canceled -= _interactor.OnInteract;
         
         _input.Disable();
     }
