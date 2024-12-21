@@ -5,17 +5,26 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
+    public Guion Script { get; set; }
     [SerializeField] private GameObject _dialogue;
     [SerializeField] private TMP_Text _message;
+    [SerializeField] private TMP_Text _name;
     private string _sentence;
 
     public bool Typing { get; private set; }
 
-    public void ChangeDialogue(string text)
+    public void ChangeDialogue(string text, string name)
     {
+        if (text.Length <= 0)
+        { 
+            Script.NextLine();
+            return;
+        }
+        
         Debug.Log(text + " " + Typing);
         _dialogue.SetActive(true);
         _sentence = text;
+        _name.text = name;
         StartCoroutine(TypeSentence());
     }
 

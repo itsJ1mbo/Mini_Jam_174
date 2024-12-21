@@ -6,6 +6,7 @@ using UnityEngine;
 public class Guion : MonoBehaviour
 {
     [SerializeField] private UIManager _ui;
+    [SerializeField] private PlayerMovement _player;
     
     // Set this file to your compiled json asset
     [SerializeField] private List<TextAsset> _textAssets;
@@ -14,14 +15,13 @@ public class Guion : MonoBehaviour
 
     public void StartDialogue()
     {
-        Talking = true;
-        
         Story activeStory = _inkStories[0];
+        if (!activeStory.canContinue) return;
         
-        if (activeStory.canContinue)
-        {
-            _ui.ChangeDialogue(activeStory.Continue());
-        }
+        Talking = true;
+
+        _ui.Script = this;
+        _ui.ChangeDialogue(activeStory.Continue(), SpeakerName(activeStory.currentTags));
     }
     
     public void NextLine()
@@ -31,14 +31,27 @@ public class Guion : MonoBehaviour
         
         if (activeStory.canContinue)
         {
-            _ui.ChangeDialogue(activeStory.Continue());
+            _ui.ChangeDialogue(activeStory.Continue(), SpeakerName(activeStory.currentTags));
         }
         else
         {
             Talking = false;
             activeStory.ResetState();
+            _player.ToggleMove();
             _ui.OnDialogueEnd();
         }
+    }
+
+    private string SpeakerName(List<string> tags)
+    {
+        foreach(string t in tags)
+        {
+            string[] splitTag = t.Split(":");
+            if (splitTag[0].Trim() == "speaker")
+                return splitTag[1].Trim();
+        }
+
+        return "";
     }
 
     private void SetStories()

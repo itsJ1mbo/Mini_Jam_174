@@ -69,7 +69,7 @@ public class DungeonMaster : MonoBehaviour
     #region Unity Callbacks
     void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (Instance != null)
         {
             Destroy(gameObject);
             return;

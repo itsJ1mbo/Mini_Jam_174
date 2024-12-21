@@ -44,6 +44,5 @@ public class Interactor4000 : MonoBehaviour
             GetComponent<PlayerMovement>().ToggleMove();
             g.StartDialogue();
         }
-        
     }
 }

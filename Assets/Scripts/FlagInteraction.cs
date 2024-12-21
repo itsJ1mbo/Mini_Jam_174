@@ -13,6 +13,7 @@ public class FlagInteraction : MonoBehaviour
 
     public void activateFlag()
     {
+        Debug.Log(DungeonMaster.Instance);
         DungeonMaster.Instance.SetFlag(_flag);
     }
 }
