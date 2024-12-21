@@ -4,32 +4,31 @@ using UnityEngine.InputSystem;
 
 public class Interactor4000 : MonoBehaviour
 {
+    [SerializeField] private UIManager _ui;
+    
     private bool _inRange = false;
     private GameObject _obj;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("IN RANGE");
         _inRange = true;
         _obj = other.gameObject;
     }
     
     private void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("OUT OF RANGE");
         _inRange = false;
         _obj = null;
     }
     
     public void OnInteract(InputAction.CallbackContext ctx)
     {
-        Debug.Log("Gfsfs");
         if (_inRange)
         {
-            Debug.Log("INTERACT");
             if (_obj.gameObject.TryGetComponent<Guion>(out Guion g))
             {
-                g.NextLine();
+                if (_ui.Typing) _ui.Skip();
+                else g.NextLine();
             }
         }
     }

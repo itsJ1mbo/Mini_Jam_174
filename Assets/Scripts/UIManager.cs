@@ -9,24 +9,14 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TMP_Text _message;
     private string _sentence;
 
-    private bool _typing;
+    public bool Typing { get; private set; }
 
     public void ChangeDialogue(string text)
     {
-        Debug.Log(text);
-        switch (_typing)
-        {
-            case false when text.Length != 0:
-                Debug.Log("UI LINEA");
-                _dialogue.SetActive(true);
-                _sentence = text;
-                StopAllCoroutines();
-                StartCoroutine(TypeSentence());
-                break;
-            case true:
-                Skip();
-                break;
-        }
+        Debug.Log(text + " " + Typing);
+        _dialogue.SetActive(true);
+        _sentence = text;
+        StartCoroutine(TypeSentence());
     }
 
     public void OnDialogueEnd()
@@ -36,23 +26,24 @@ public class UIManager : MonoBehaviour
 
     private IEnumerator TypeSentence()
     {
-        _typing = true;
+        Typing = true;
+        
         _message.text = "";
-        foreach (char letter in _sentence.ToCharArray())
+        foreach (char letter in _sentence)
         {
             _message.text += letter;
             yield return new WaitForSeconds(0.1f);
         }
 
-        _typing = false;
+        Typing = false;
     }
 
-    private void Skip()
+    public void Skip()
     {
-        if (!_typing) return;
-        
+        if (!Typing) return;
+
         StopAllCoroutines();
         _message.text = _sentence;
-        _typing = false;
+        Typing = false;
     }
 }
