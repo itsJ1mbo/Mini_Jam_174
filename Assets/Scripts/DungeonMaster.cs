@@ -28,13 +28,16 @@ public enum TimePeriod
     Morning = 0,
     Afternoon = 1,
     Evening = 2,
-    EndGame,
+    EndGame = 3
 }
 
 public class DungeonMaster : MonoBehaviour
 {
     private const float MINUTE_LENGTH = 60.0F;
 
+    [SerializeField]
+    private UIManager _uiManager;
+    
     #region Variables
     public static DungeonMaster Instance { get; private set; }
     /// <summary>
@@ -53,7 +56,7 @@ public class DungeonMaster : MonoBehaviour
     /// Duracion de las etapas del juego
     /// </summary>
     [Tooltip("Duración de cada periodo de tiempo del juego en minutos")] 
-    [SerializeField] private int _timePeriodLength = 5;
+    [SerializeField] private float _timePeriodLength = 5;
     /// <summary>
     /// Timer interno para las etapas del juego
     /// </summary>
@@ -86,10 +89,9 @@ public class DungeonMaster : MonoBehaviour
 
     void Update()
     {
-        if (_runTimer && _currentTimePeriod == TimePeriod.EndGame)
+        if (_runTimer && _currentTimePeriod != TimePeriod.EndGame)
         {
             _timePeriodTimer += Time.deltaTime;
-            //Debug.Log(_timePeriodTimer);
             if(_timePeriodTimer >= _timePeriodLength * MINUTE_LENGTH)
                 NextTimePeriod();
         }
@@ -98,17 +100,14 @@ public class DungeonMaster : MonoBehaviour
     #endregion
     
     #region Public Functions
-
-    public void SetFlag(Flags flag)
-    {
-        Debug.Log(_currentFlags.ToBinaryString());
-        _currentFlags |= flag;
-        Debug.Log(_currentFlags.ToBinaryString());
-    }
+    public UIManager GetUIManager() { return _uiManager; }
+    public void SetFlag(Flags flag) { _currentFlags |= flag; }
     public void RemoveFlag (Flags flag) { _currentFlags &= ~flag; }
+    public Flags GetFlag () { return _currentFlags; } 
     public void AddEntity (GameObject entity) { _entities.Add(entity); }
     public void RemoveEntity (GameObject entity) { _entities.Remove(entity); }
     public void ToggleTimer() { _runTimer = !_runTimer; }
+    public TimePeriod GetCurrentTimePeriod () { return _currentTimePeriod; }
     #endregion
 
     #region Private Functions
@@ -117,7 +116,8 @@ public class DungeonMaster : MonoBehaviour
     {
         //hacer una animacion to guapa para mostrar el paso del tiempo
         _currentTimePeriod++;
-        UpdateGameState();
+        if(_currentTimePeriod != TimePeriod.EndGame)
+            UpdateGameState();
         _timePeriodTimer = 0.0f;
         /*Debug.Log(_currentTimePeriod);
         Debug.Log(_currentFlags.ToBinaryString());*/
@@ -126,7 +126,7 @@ public class DungeonMaster : MonoBehaviour
     {
         foreach (GameObject entity in _entities)
         {
-            entity.GetComponent<StateHandler>().UpdateState(_currentTimePeriod, _currentFlags);
+            entity.GetComponent<StateHandler>().UpdateState();
         }
     }
 

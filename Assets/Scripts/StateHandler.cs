@@ -1,27 +1,18 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class StateHandler : MonoBehaviour
 {
+    [SerializeField] 
+    protected Vector3[] positions = new Vector3[3]; 
     void Start()
     {
         DungeonMaster.Instance.AddEntity(this.gameObject);
     }
     
-    public void UpdateState(TimePeriod timePeriod, Flags flags)
+    public virtual void UpdateState()
     {
-        switch (timePeriod)
-        {
-            case TimePeriod.Morning:
-                break;
-            case TimePeriod.Afternoon:
-                break;
-            case TimePeriod.Evening:
-                break;
-            case TimePeriod.EndGame:
-                break;
-            default:
-                throw new ArgumentOutOfRangeException(nameof(timePeriod), timePeriod, null);
-        }
+        transform.position = positions[(int)DungeonMaster.Instance.GetCurrentTimePeriod()];
     }
 }
