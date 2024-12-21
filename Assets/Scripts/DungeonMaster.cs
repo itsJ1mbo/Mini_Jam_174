@@ -35,7 +35,7 @@ public class DungeonMaster : MonoBehaviour
     private const float MINUTE_LENGTH = 60.0F;
 
     #region Variables
-    public DungeonMaster Instance { get; private set; }
+    public static DungeonMaster Instance { get; private set; }
     /// <summary>
     /// Periodo del dia actual
     /// </summary>
@@ -68,15 +68,13 @@ public class DungeonMaster : MonoBehaviour
     #region Unity Callbacks
     void Awake()
     {
-        if(Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
+            return;
         }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     void Start()
@@ -99,7 +97,13 @@ public class DungeonMaster : MonoBehaviour
     #endregion
     
     #region Public Functions
-    public void SetFlag(Flags flag) { _currentFlags |= flag; }
+
+    public void SetFlag(Flags flag)
+    {
+        Debug.Log(_currentFlags.ToBinaryString());
+        _currentFlags |= flag;
+        Debug.Log(_currentFlags.ToBinaryString());
+    }
     public void RemoveFlag (Flags flag) { _currentFlags &= ~flag; }
     public void AddEntity (GameObject entity) { _entities.Add(entity); }
     public void RemoveEntity (GameObject entity) { _entities.Remove(entity); }
