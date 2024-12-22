@@ -21,6 +21,7 @@ public class MapSystem : MonoBehaviour
 
     public void ToggleMap()
     {
+        DungeonMaster.Instance.GetPlayer().GetComponent<PlayerMovement>().ToggleMove();
         this.gameObject.SetActive(!this.gameObject.activeSelf);
         if(this.gameObject.activeSelf)
             UpdateMap();

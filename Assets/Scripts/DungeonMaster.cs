@@ -48,6 +48,8 @@ public enum TimePeriod
 
 public class DungeonMaster : MonoBehaviour
 {
+    [SerializeField] private GameObject _player;
+    
     private const float MINUTE_LENGTH = 60.0F;
 
     [SerializeField]
@@ -127,6 +129,7 @@ public class DungeonMaster : MonoBehaviour
     #endregion
     
     #region Public Functions
+    public GameObject GetPlayer() { return _player; }
     public UIManager GetUIManager() { return _uiManager; }
     public void SetFlag(Flags flag) { _currentFlags |= flag; }
     public void RemoveFlag (Flags flag) { _currentFlags &= ~flag; }

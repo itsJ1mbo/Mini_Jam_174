@@ -7,12 +7,12 @@ using UnityEngine.Serialization;
 public class ScreenFade : MonoBehaviour
 {
     private bool _playAnim = false;
-    [SerializeField] private float _animDuration = 5;
-    [SerializeField] private float _fadeSpeed = 5;
+    [SerializeField] private float _animDuration = 1;
+    [SerializeField] private float _fadeSpeed = 7.5f;
     private float _animTimer = 0.0f;
     private CanvasGroup _blackScreen;
 
-    private bool _eventsExecuted;
+    private bool _eventsExecuted = false;
     [SerializeField] private List<UnityEvent> _midFadeEvents;
 
     private void Start()
@@ -39,6 +39,7 @@ public class ScreenFade : MonoBehaviour
                 {
                     callback.Invoke();
                 }
+                _eventsExecuted = true;
             }
             
             _animTimer += Time.deltaTime;
@@ -46,6 +47,7 @@ public class ScreenFade : MonoBehaviour
         if (_animTimer >= _animDuration)
         {
             _playAnim = false;
+            _eventsExecuted = false;
             _animTimer = 0;
             _blackScreen.alpha = 0;
         }

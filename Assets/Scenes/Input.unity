@@ -427,6 +427,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _flag: 1
   _disappearOnInteraction: 0
+--- !u!1 &110886523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7409935580757914692, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
+  m_PrefabInstance: {fileID: 4004743989886027087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &123531149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1895,6 +1900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40561afbc83e8734a97a06255d24cf27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _player: {fileID: 110886523}
   _uiManager: {fileID: 976394531}
   _currentFlags: 0
   _currentNPCsFlags: 0
@@ -6309,7 +6315,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2350818553557958858, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
   m_PrefabInstance: {fileID: 4004743989886027087}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 110886523}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9ee68c57b88f0f478668fec2206d890, type: 3}
