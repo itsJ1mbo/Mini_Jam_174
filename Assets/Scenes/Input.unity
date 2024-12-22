@@ -21653,6 +21653,8 @@ MonoBehaviour:
   _dialogue: {fileID: 355841810}
   _message: {fileID: 716313397}
   _name: {fileID: 1888750297}
+  _clockBig: {fileID: 0}
+  _clockLittle: {fileID: 0}
 --- !u!114 &1937329894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21960,7 +21962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _vel: 5
-  _checkDistance: 0
+  _checkDistance: 0.1
   _obstacleLayer:
     serializedVersion: 2
     m_Bits: 8
