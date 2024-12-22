@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Numerics;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Serialization;
+using Vector3 = UnityEngine.Vector3;
+
 [Flags] public enum Flags 
 {
     /// <summary>
@@ -49,6 +52,8 @@ public enum TimePeriod
 public class DungeonMaster : MonoBehaviour
 {
     [SerializeField] private GameObject _player;
+    
+    [SerializeField] private ScreenFade[] _timePeriodAnims = new ScreenFade[8];
     
     private const float MINUTE_LENGTH = 60.0F;
 
@@ -110,19 +115,23 @@ public class DungeonMaster : MonoBehaviour
 
     void Start()
     {
-        _runTimer = true;
+        _timePeriodAnims[(int)_currentTimePeriod].PlayFade();
         UpdateGameState();
     }
 
     void Update()
     {
+        //Debug.Log(_timePeriodTimer);
         if (_runTimer && _currentTimePeriod != TimePeriod.EndGame)
         {
             _timePeriodTimer += Time.deltaTime;
             //Debug.Log(_timePeriodTimer);
             _uiManager.UpdateClock(120/ (_timePeriodLength * 60));
-            if(_timePeriodTimer >= _timePeriodLength * MINUTE_LENGTH)
+            if (_timePeriodTimer >= _timePeriodLength * MINUTE_LENGTH)
+            {
+                _runTimer = false;
                 NextTimePeriod();
+            }
         }
     }
     
@@ -156,24 +165,26 @@ public class DungeonMaster : MonoBehaviour
     #endregion
 
     #region Private Functions
-
-    private void NextTimePeriod()
-    {
-        //hacer una animacion to guapa para mostrar el paso del tiempo
-        _currentTimePeriod++;
-        if(_currentTimePeriod != TimePeriod.EndGame)
-            UpdateGameState();
-        _timePeriodTimer = 0.0f;
-        /*Debug.Log(_currentTimePeriod);
-        Debug.Log(_currentFlags.ToBinaryString());*/
-    }
-    
     private void UpdateGameState()
     {
         foreach (GameObject entity in _entities)
         {
             entity.GetComponent<StateHandler>().UpdateState();
         }
+    }
+    
+    private void NextTimePeriod()
+    {
+        _currentTimePeriod++;
+        _timePeriodAnims[(int)_currentTimePeriod].PlayFade();
+    }
+
+    public void NextTimePeriodCallback()
+    {
+        if(_currentTimePeriod != TimePeriod.EndGame)
+            UpdateGameState();
+        _timePeriodTimer = 0.0f;
+        _runTimer = true;
     }
 
     #endregion
