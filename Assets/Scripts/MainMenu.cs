@@ -6,7 +6,6 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private ScreenFade _screenFade;
     public void PlayGame()
     {
-        Debug.Log("Play Game");
         _screenFade.PlayFade();
     }
     
