@@ -2,6 +2,7 @@ using TMPro;
 using System.Collections;
 using NUnit.Framework.Internal.Commands;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 using UnityEngine.UIElements;
 

@@ -20,7 +20,22 @@ using UnityEngine;
     LightsOut = 16,
     CamerasSabotaged = 32,
     TeaPrepared = 64,
-    DrankTea = 128
+    TeaPosioned = 128,
+    DrankTea = 256
+}
+
+[Flags] public enum NPCsFlags 
+{
+    None = 0,
+    T_Morning = 1,
+    T_Afternoon = 2,
+    T_Evening = 4,
+    C_Morning = 8,
+    C_Afternoon = 16,
+    C_Evening = 32,
+    G_Morning = 64,
+    G_Afternoon = 128,
+    G_Evening = 256
 }
 
 public enum TimePeriod
@@ -47,7 +62,13 @@ public class DungeonMaster : MonoBehaviour
     /// <summary>
     /// Estado actual de las flags del juego
     /// </summary>
+    [SerializeField]
     private Flags _currentFlags = Flags.None;
+    /// <summary>
+    /// Estado actual de las flags del juego
+    /// </summary>
+    [SerializeField]
+    private NPCsFlags _currentNPCsFlags = NPCsFlags.None;
     /// <summary>
     /// Lista con todas las entidades (objetos/personajes) del juego que cambian de estado dependiendo de la etapa del dia
     /// </summary>
@@ -105,7 +126,10 @@ public class DungeonMaster : MonoBehaviour
     public UIManager GetUIManager() { return _uiManager; }
     public void SetFlag(Flags flag) { _currentFlags |= flag; }
     public void RemoveFlag (Flags flag) { _currentFlags &= ~flag; }
-    public Flags GetFlag () { return _currentFlags; } 
+    public NPCsFlags GetNPCsFlags () { return _currentNPCsFlags; }
+    public void SetNPCsFlag(NPCsFlags flag) { _currentNPCsFlags |= flag; }
+    public void RemoveNPCsFlag (NPCsFlags flag) { _currentNPCsFlags &= ~flag; }
+    public Flags GetFlags () { return _currentFlags; } 
     public void AddEntity (GameObject entity) { _entities.Add(entity); }
     public void RemoveEntity (GameObject entity) { _entities.Remove(entity); }
     public void ToggleTimer() { _runTimer = !_runTimer; }

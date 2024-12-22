@@ -8,6 +8,8 @@ public class InputManager : MonoBehaviour
     
     private PlayerMovement _playerMovement;
     private Interactor4000 _interactor;
+
+    [SerializeField] private MapSystem _map;
     
     private void OnEnable()
     {
@@ -15,6 +17,8 @@ public class InputManager : MonoBehaviour
         _input.Player.Move.canceled += _playerMovement.OnMove;
 
         _input.Player.Interact.performed += _interactor.OnInteract;
+
+        _input.Player.Map.performed += _map.ToggleMap;
         
         _input.Enable();
     }
@@ -25,6 +29,8 @@ public class InputManager : MonoBehaviour
         _input.Player.Move.canceled -= _playerMovement.OnMove;
         
         _input.Player.Interact.performed -= _interactor.OnInteract;
+        
+        _input.Player.Map.performed -= _map.ToggleMap;
         
         _input.Disable();
     }
