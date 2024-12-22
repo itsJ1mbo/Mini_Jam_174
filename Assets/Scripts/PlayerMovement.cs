@@ -24,8 +24,27 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext obj)
     {
-        Debug.Log("MOVE");
-        _direction = new Vector3(obj.ReadValue<Vector2>().x, obj.ReadValue<Vector2>().y, 0).normalized;
+        Vector2 input = obj.ReadValue<Vector2>();
+    
+        if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
+        {
+            _direction = new Vector3(input.x, 0, 0).normalized;
+        }
+        else
+        {
+            _direction = new Vector3(0, input.y, 0).normalized;
+        }
+        
+        RotateSprite();
+    }
+    
+    private void RotateSprite()
+    {
+        if (_direction == Vector3.zero)
+            return;
+
+        float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle + 90.0f);
     }
 
     private bool IsBlocked(Vector3 direction)
