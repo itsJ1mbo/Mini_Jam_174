@@ -6,6 +6,8 @@ public class StateHandler : MonoBehaviour
 {
     [SerializeField] 
     protected Vector3[] positions = new Vector3[3]; 
+    [SerializeField] 
+    protected Quaternion[] rotations = new Quaternion[3]; 
     void Start()
     {
         DungeonMaster.Instance.RegisterEntity(this.gameObject);
