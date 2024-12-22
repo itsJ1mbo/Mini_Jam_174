@@ -92,7 +92,7 @@ public class DungeonMaster : MonoBehaviour
         if (_runTimer && _currentTimePeriod != TimePeriod.EndGame)
         {
             _timePeriodTimer += Time.deltaTime;
-            Debug.Log(_timePeriodTimer);
+            //Debug.Log(_timePeriodTimer);
             _uiManager.UpdateClock(120/ (_timePeriodLength * 60));
             if(_timePeriodTimer >= _timePeriodLength * MINUTE_LENGTH)
                 NextTimePeriod();
