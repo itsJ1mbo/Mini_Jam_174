@@ -10,7 +10,7 @@ public class FogComponent : MonoBehaviour
     {
         DungeonMaster.Instance.RegisterFog(this.gameObject);
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if(other.GetComponent<PlayerInput>())
             DungeonMaster.Instance.updateFog(this.gameObject);
