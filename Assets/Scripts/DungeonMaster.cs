@@ -74,6 +74,10 @@ public class DungeonMaster : MonoBehaviour
     /// </summary>
     private List<GameObject> _entities = new List<GameObject>();
     /// <summary>
+    /// lista de nieblas
+    /// </summary>
+    private List<GameObject> fogObjects = new List<GameObject>();
+    /// <summary>
     /// Duracion de las etapas del juego
     /// </summary>
     [Tooltip("Duración de cada periodo de tiempo del juego en minutos")] 
@@ -130,10 +134,22 @@ public class DungeonMaster : MonoBehaviour
     public void SetNPCsFlag(NPCsFlags flag) { _currentNPCsFlags |= flag; }
     public void RemoveNPCsFlag (NPCsFlags flag) { _currentNPCsFlags &= ~flag; }
     public Flags GetFlags () { return _currentFlags; } 
-    public void AddEntity (GameObject entity) { _entities.Add(entity); }
-    public void RemoveEntity (GameObject entity) { _entities.Remove(entity); }
+    public void RegisterEntity (GameObject entity) { _entities.Add(entity); }
+    public void DeregisterEntity (GameObject entity) { _entities.Remove(entity); }
+    public void RegisterFog(GameObject fog) { fogObjects.Add(fog); }
     public void ToggleTimer() { _runTimer = !_runTimer; }
     public TimePeriod GetCurrentTimePeriod () { return _currentTimePeriod; }
+    
+    public void updateFog(GameObject fogObject)
+    {
+        foreach (GameObject fog in fogObjects)
+        {
+            //Debug.Log(fog);
+            fog.GetComponent<SpriteRenderer>().enabled = true;
+        }
+        //Debug.Log(fogObject);
+        fogObject.GetComponent<SpriteRenderer>().enabled = false;
+    }
     #endregion
 
     #region Private Functions

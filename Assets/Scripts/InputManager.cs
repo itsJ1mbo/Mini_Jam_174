@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
+    
     private InputSystem_Actions _input;
     
     private PlayerMovement _playerMovement;
@@ -18,7 +19,7 @@ public class InputManager : MonoBehaviour
 
         _input.Player.Interact.performed += _interactor.OnInteract;
 
-        _input.Player.Map.performed += _map.ToggleMap;
+        _input.Player.Map.performed += _map.UseMap;
         
         _input.Enable();
     }
@@ -30,7 +31,7 @@ public class InputManager : MonoBehaviour
         
         _input.Player.Interact.performed -= _interactor.OnInteract;
         
-        _input.Player.Map.performed -= _map.ToggleMap;
+        _input.Player.Map.performed -= _map.UseMap;
         
         _input.Disable();
     }

@@ -8,7 +8,7 @@ public class StateHandler : MonoBehaviour
     protected Vector3[] positions = new Vector3[3]; 
     void Start()
     {
-        DungeonMaster.Instance.AddEntity(this.gameObject);
+        DungeonMaster.Instance.RegisterEntity(this.gameObject);
     }
     
     public virtual void UpdateState()

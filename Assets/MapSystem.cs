@@ -11,7 +11,15 @@ public class MapSystem : MonoBehaviour
     private NPCsFlags _currentNPCsFlags;
     private Flags _currentFlags;
     
-    public void ToggleMap(InputAction.CallbackContext ctx)
+    [SerializeField]
+    private ScreenFade _screenFade;
+    
+    public void UseMap(InputAction.CallbackContext ctx)
+    {
+        _screenFade.PlayFade();
+    }
+
+    public void ToggleMap()
     {
         this.gameObject.SetActive(!this.gameObject.activeSelf);
         if(this.gameObject.activeSelf)

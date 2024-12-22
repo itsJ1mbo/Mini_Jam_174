@@ -12,7 +12,7 @@ public class FlagInteraction : MonoBehaviour
         DungeonMaster.Instance.SetFlag(_flag);
         if (_disappearOnInteraction)
         {
-            DungeonMaster.Instance.RemoveEntity(this.gameObject);
+            DungeonMaster.Instance.DeregisterEntity(this.gameObject);
             Destroy(this.gameObject);
         }
     }
