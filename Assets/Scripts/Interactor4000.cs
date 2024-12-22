@@ -15,8 +15,11 @@ public class Interactor4000 : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        _inRange = true;
-        _obj = other.gameObject;
+        if (other.gameObject.layer == LayerMask.NameToLayer("Interactable"))
+        {
+            _inRange = true;
+            _obj = other.gameObject;
+        }
     }
     
     private void OnTriggerExit2D(Collider2D other)

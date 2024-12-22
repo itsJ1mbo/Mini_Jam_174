@@ -4,10 +4,10 @@ using UnityEngine;
 public class FlagInteraction : MonoBehaviour
 {
     [SerializeField]
-    private Flags _flag = Flags.None;
+    protected Flags _flag = Flags.None;
 
-    [SerializeField] private bool _disappearOnInteraction = false;
-    public void activateFlag()
+    [SerializeField] protected bool _disappearOnInteraction = false;
+    public virtual void activateFlag()
     {
         DungeonMaster.Instance.SetFlag(_flag);
         if (_disappearOnInteraction)

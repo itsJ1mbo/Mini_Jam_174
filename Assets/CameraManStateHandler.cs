@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class CameraManStateHandler : StateHandler
 {
-    private Guion _script;
-
     // Update is called once per frame
     public override void UpdateState()
     {

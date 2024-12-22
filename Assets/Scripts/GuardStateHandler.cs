@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class GuardStateHandler : StateHandler
 {
-    private Guion _script;
-    
     public override void UpdateState()
     {
         _script = GetComponent<Guion>();

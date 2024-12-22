@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class TechnicianStateHandler : StateHandler
 { 
-    private Guion _script;
-    
     public override void UpdateState()
     {
         _script = GetComponent<Guion>();
