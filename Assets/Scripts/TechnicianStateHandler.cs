@@ -11,13 +11,13 @@ public class TechnicianStateHandler : StateHandler
                 transform.position = positions[0];
                 break;
             case TimePeriod.Afternoon:
-                if(DungeonMaster.Instance.GetFlag().HasFlag(Flags.TechnicianDead))
+                if(DungeonMaster.Instance.GetFlags().HasFlag(Flags.TechnicianDead))
                    transform.position = positions[3];
                 else
                     transform.position = positions[1];
                 break;
             case TimePeriod.Evening:
-                if(DungeonMaster.Instance.GetFlag().HasFlag(Flags.TechnicianDead))
+                if(DungeonMaster.Instance.GetFlags().HasFlag(Flags.TechnicianDead))
                     transform.position = positions[3];
                 else
                     transform.position = positions[2];
