@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4022247251055997970}
   - component: {fileID: 5672452630089109476}
-  m_Layer: 0
+  - component: {fileID: 2520035250893821984}
+  m_Layer: 3
   m_Name: Banco_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,6 +88,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2520035250893821984
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118582023749774610}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.7466667, y: 0.95666665}
+    newSize: {x: 3.7466667, y: 0.95666665}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.7466667, y: 0.95666665}
+  m_EdgeRadius: 0
 --- !u!1 &144774676627486559
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6228887450850988425}
   - component: {fileID: 9038759363957227454}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Enfermeria_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8196101557200486486}
   - component: {fileID: 3669188357953320097}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +318,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2047663314462383564}
   - component: {fileID: 3832752417112343604}
-  m_Layer: 0
+  - component: {fileID: 4501253957354900142}
+  m_Layer: 3
   m_Name: Campo_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,6 +396,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4501253957354900142
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214242486998392275}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1533334, y: 0.33666667}
+    newSize: {x: 3.4600003, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.1533334, y: 0.33666667}
+  m_EdgeRadius: 0
 --- !u!1 &234465294172018282
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,7 +452,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6602904409006495107}
   - component: {fileID: 869923776928937086}
-  m_Layer: 0
+  - component: {fileID: 140933053680455358}
+  m_Layer: 3
   m_Name: Enfermeria_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,6 +530,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &140933053680455358
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234465294172018282}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6866667, y: 0.7366667}
+    newSize: {x: 1.6866667, y: 0.7366667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.6866667, y: 0.7366667}
+  m_EdgeRadius: 0
 --- !u!1 &235637437323914341
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,7 +586,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6901061897626164196}
   - component: {fileID: 3362730266200005224}
-  m_Layer: 0
+  - component: {fileID: 8932428878028687870}
+  m_Layer: 3
   m_Name: Escritorio_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,6 +664,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8932428878028687870
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235637437323914341}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.074043065}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.4233334, y: 2.04}
+    newSize: {x: 10.27, y: 6.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.4233334, y: 1.8919139}
+  m_EdgeRadius: 0
 --- !u!1 &242214646958755528
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1055747690709664411}
   - component: {fileID: 4191785593880893066}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cocina_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +807,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1302692239620758477}
   - component: {fileID: 6686448950847262236}
-  m_Layer: 0
+  - component: {fileID: 451612551231832298}
+  m_Layer: 3
   m_Name: Silla_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -696,6 +885,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &451612551231832298
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283624878133333854}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.69}
+    newSize: {x: 4.86, y: 5.07}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.62, y: 1.69}
+  m_EdgeRadius: 0
 --- !u!1 &311182765296192392
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,7 +940,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3141672215233936936}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cafeteria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -740,7 +975,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4343604448210042746}
   - component: {fileID: 8432206985165981778}
-  m_Layer: 0
+  - component: {fileID: 3645114522368245364}
+  m_Layer: 3
   m_Name: Silla_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -817,6 +1053,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3645114522368245364
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315453449400687829}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.69}
+    newSize: {x: 4.86, y: 5.07}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.62, y: 1.69}
+  m_EdgeRadius: 0
 --- !u!1 &371515681253585240
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,7 +1109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7837835823007251178}
   - component: {fileID: 4335886855340268915}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -913,7 +1195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 243434553127228797}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Camas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -949,7 +1231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9203838785887079764}
   - component: {fileID: 368304350776236632}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1036,7 +1318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3243290420779113411}
   - component: {fileID: 9016776006884539960}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Campo_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1123,7 +1405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6304201469768343188}
   - component: {fileID: 5211952591421219547}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Almacen_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1210,7 +1492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7679619392588719432}
   - component: {fileID: 4090095548639109046}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1330,7 +1612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2751260600597039105}
   - component: {fileID: 576523725046146935}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Almacen_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1416,7 +1698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8377345179698498715}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Props
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1458,7 +1740,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8524580633962467130}
   - component: {fileID: 8265869806196141800}
-  m_Layer: 0
+  - component: {fileID: 1829275309593153861}
+  m_Layer: 3
   m_Name: Almacen_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1535,6 +1818,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1829275309593153861
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964817681450276850}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.09404686, y: -0.08304483}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6366668, y: 1.6466666}
+    newSize: {x: 1.6366668, y: 1.6466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.4485731, y: 1.4805771}
+  m_EdgeRadius: 0
 --- !u!1 &989284071580042987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,7 +1873,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4950508008831520910}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1580,7 +1909,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7394723445756405241}
   - component: {fileID: 5501057368274714033}
-  m_Layer: 0
+  - component: {fileID: 1100063772543201946}
+  m_Layer: 3
   m_Name: Camaras_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1657,6 +1987,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1100063772543201946
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020299480619709303}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.7366667, y: 1.6133333}
+    newSize: {x: 0.7366667, y: 1.6133333}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.7366667, y: 1.6133333}
+  m_EdgeRadius: 0
 --- !u!1 &1059367650479432512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,7 +2043,8 @@ GameObject:
   m_Component:
   - component: {fileID: 687288988732782062}
   - component: {fileID: 927291799605334978}
-  m_Layer: 0
+  - component: {fileID: 3649245162017536056}
+  m_Layer: 3
   m_Name: Campo_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1744,6 +2121,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3649245162017536056
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059367650479432512}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1533334, y: 0.33666667}
+    newSize: {x: 3.4600003, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.1533334, y: 0.33666667}
+  m_EdgeRadius: 0
 --- !u!1 &1081318189991294759
 GameObject:
   m_ObjectHideFlags: 0
@@ -9970,7 +10393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3419278751173843319}
   - component: {fileID: 5344584381848113746}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10056,7 +10479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4365172051421086087}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barracones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10091,7 +10514,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7383710773166513047}
   - component: {fileID: 3496038653914152757}
-  m_Layer: 0
+  - component: {fileID: 5944998962309931519}
+  m_Layer: 3
   m_Name: Almacen_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10168,6 +10592,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5944998962309931519
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319447734110947511}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.91333336, y: 0.8566667}
+    newSize: {x: 0.91333336, y: 0.8566667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.91333336, y: 0.8566667}
+  m_EdgeRadius: 0
 --- !u!1 &1362695939644005391
 GameObject:
   m_ObjectHideFlags: 0
@@ -10178,7 +10648,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7037106900079045508}
   - component: {fileID: 6430299868060177893}
-  m_Layer: 0
+  - component: {fileID: 6374198185867293253}
+  m_Layer: 3
   m_Name: Almacen_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10255,6 +10726,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &6374198185867293253
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362695939644005391}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.09520838, y: 0.07755542}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6366668, y: 1.6466666}
+    newSize: {x: 1.6366668, y: 1.6466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.44625, y: 1.4915557}
+  m_EdgeRadius: 0
 --- !u!1 &1388535334316431113
 GameObject:
   m_ObjectHideFlags: 0
@@ -10264,7 +10781,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5664782025577744179}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Campo de tiro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10316,7 +10833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2507035511956031170}
   - component: {fileID: 443175855752017818}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Enfermeria_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10403,7 +10920,9 @@ GameObject:
   m_Component:
   - component: {fileID: 90306783099735729}
   - component: {fileID: 1308045785510643908}
-  m_Layer: 0
+  - component: {fileID: 1889209212665936114}
+  - component: {fileID: 1451009768710257771}
+  m_Layer: 3
   m_Name: Cocina_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10480,6 +10999,98 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1889209212665936114
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476382550164950897}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 1.2173936}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.8799999, y: 3.8533332}
+    newSize: {x: 2.8799999, y: 3.8533332}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.8799999, y: 1.4185462}
+  m_EdgeRadius: 0
+--- !u!61 &1451009768710257771
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476382550164950897}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.7304361, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.8799999, y: 3.8533332}
+    newSize: {x: 2.8799999, y: 3.8533332}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.419128, y: 3.8533332}
+  m_EdgeRadius: 0
 --- !u!1 &1495822254658715764
 GameObject:
   m_ObjectHideFlags: 0
@@ -10490,7 +11101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1889825542081284441}
   - component: {fileID: 6783398777152757679}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_8 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10577,7 +11188,8 @@ GameObject:
   m_Component:
   - component: {fileID: 351273309138577720}
   - component: {fileID: 3474859631559798242}
-  m_Layer: 0
+  - component: {fileID: 7060010190259421184}
+  m_Layer: 3
   m_Name: Elec_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10654,6 +11266,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &7060010190259421184
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536262565888580797}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.037044667, y: 0.012346733}
+  m_Radius: 0.6425781
 --- !u!1 &1568144497767174229
 GameObject:
   m_ObjectHideFlags: 0
@@ -10664,7 +11312,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1870573993138262142}
   - component: {fileID: 6845571264557141638}
-  m_Layer: 0
+  - component: {fileID: 4884015930449486364}
+  m_Layer: 3
   m_Name: Banco_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10741,6 +11390,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4884015930449486364
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568144497767174229}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.7466667, y: 0.95666665}
+    newSize: {x: 3.7466667, y: 0.95666665}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.7466667, y: 0.95666665}
+  m_EdgeRadius: 0
 --- !u!1 &1635236054940515628
 GameObject:
   m_ObjectHideFlags: 0
@@ -10751,7 +11446,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1176432071546312880}
   - component: {fileID: 8393071799660574571}
-  m_Layer: 0
+  - component: {fileID: 5200560083336363847}
+  m_Layer: 3
   m_Name: Armeria_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10828,6 +11524,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5200560083336363847
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635236054940515628}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.04265237}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.8566667, y: 1.12}
+    newSize: {x: 5.57, y: 3.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.8566667, y: 1.0346953}
+  m_EdgeRadius: 0
 --- !u!1 &1649246692642545660
 GameObject:
   m_ObjectHideFlags: 0
@@ -10838,7 +11580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2329467733626180595}
   - component: {fileID: 5044891188841260877}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10925,7 +11667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3221304003468709880}
   - component: {fileID: 6230729305437559347}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11012,7 +11754,8 @@ GameObject:
   m_Component:
   - component: {fileID: 116799834140018187}
   - component: {fileID: 3308240450581545676}
-  m_Layer: 0
+  - component: {fileID: 6942479552543499527}
+  m_Layer: 3
   m_Name: Campo_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11089,6 +11832,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &6942479552543499527
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686213298580489717}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1533334, y: 0.33666667}
+    newSize: {x: 3.4600003, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.1533334, y: 0.33666667}
+  m_EdgeRadius: 0
 --- !u!1 &1728284503652059016
 GameObject:
   m_ObjectHideFlags: 0
@@ -11099,7 +11888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7049280771289006594}
   - component: {fileID: 3597157429554276397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_8 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11186,7 +11975,8 @@ GameObject:
   m_Component:
   - component: {fileID: 644512632159806590}
   - component: {fileID: 7801476040013369310}
-  m_Layer: 0
+  - component: {fileID: 5083477924879188572}
+  m_Layer: 3
   m_Name: Despacho_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11263,6 +12053,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5083477924879188572
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734216676433908789}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.2733333, y: 0.91333336}
+    newSize: {x: 2.2733333, y: 0.91333336}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.2733333, y: 0.91333336}
+  m_EdgeRadius: 0
 --- !u!1 &1782340390969275541
 GameObject:
   m_ObjectHideFlags: 0
@@ -11273,7 +12109,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3628472931902527724}
   - component: {fileID: 5676521421660058169}
-  m_Layer: 0
+  - component: {fileID: 362787969665914461}
+  m_Layer: 3
   m_Name: Enfermeria_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11350,6 +12187,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &362787969665914461
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782340390969275541}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 1.5566666}
+    newSize: {x: 0.28, y: 1.5566666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.28, y: 1.5566666}
+  m_EdgeRadius: 0
 --- !u!1 &1856260842206223084
 GameObject:
   m_ObjectHideFlags: 0
@@ -11360,7 +12243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4183787104460636692}
   - component: {fileID: 9145305227554090925}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11446,7 +12329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1549657746170010882}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Elec
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11466,7 +12349,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7866852835570278675}
   - {fileID: 351273309138577720}
   - {fileID: 626581934768551034}
   - {fileID: 7527238241230575107}
@@ -11482,7 +12364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7414332361620901122}
   - component: {fileID: 7009147969502330432}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Campo_1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11569,7 +12451,8 @@ GameObject:
   m_Component:
   - component: {fileID: 681998934881324962}
   - component: {fileID: 7884104662308799570}
-  m_Layer: 0
+  - component: {fileID: 7729471151931111717}
+  m_Layer: 3
   m_Name: Armeria_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11646,6 +12529,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &7729471151931111717
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243076848538196076}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.021113038}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.8566667, y: 1.12}
+    newSize: {x: 5.57, y: 3.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.8566667, y: 1.0777739}
+  m_EdgeRadius: 0
 --- !u!1 &2370868925655236369
 GameObject:
   m_ObjectHideFlags: 0
@@ -11656,7 +12585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7585114663819941971}
   - component: {fileID: 5026612662955998091}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Almacen_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11743,7 +12672,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8775452195234540685}
   - component: {fileID: 6404351244980335999}
-  m_Layer: 0
+  - component: {fileID: 3395374448860897075}
+  m_Layer: 3
   m_Name: Almacen_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11820,6 +12750,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3395374448860897075
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2404983805808333391}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.7733333, y: 0.89666665}
+    newSize: {x: 1.7733333, y: 0.89666665}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.7733333, y: 0.89666665}
+  m_EdgeRadius: 0
 --- !u!1 &2539816331086162390
 GameObject:
   m_ObjectHideFlags: 0
@@ -11830,7 +12806,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4148607960924615613}
   - component: {fileID: 1534315627911990857}
-  m_Layer: 0
+  - component: {fileID: 5532734754817230354}
+  m_Layer: 3
   m_Name: Enfermeria_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11907,6 +12884,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5532734754817230354
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2539816331086162390}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.6866667, y: 0.7366667}
+    newSize: {x: 1.6866667, y: 0.7366667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.6866667, y: 0.7366667}
+  m_EdgeRadius: 0
 --- !u!1 &2563452124346063567
 GameObject:
   m_ObjectHideFlags: 0
@@ -11917,7 +12940,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2199788159678147164}
   - component: {fileID: 2639669710635864996}
-  m_Layer: 0
+  - component: {fileID: 5748905696011796633}
+  m_Layer: 3
   m_Name: Despacho_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11994,6 +13018,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5748905696011796633
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2563452124346063567}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.07259911}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.3066669, y: 1.1966667}
+    newSize: {x: 2.3066669, y: 1.1966667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.3066669, y: 1.0514685}
+  m_EdgeRadius: 0
 --- !u!1 &2581826233598985574
 GameObject:
   m_ObjectHideFlags: 0
@@ -12004,7 +13074,8 @@ GameObject:
   m_Component:
   - component: {fileID: 176714467076417076}
   - component: {fileID: 2052901109915115698}
-  m_Layer: 0
+  - component: {fileID: 3995013889400945003}
+  m_Layer: 3
   m_Name: Banco_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12081,6 +13152,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3995013889400945003
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2581826233598985574}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.062607765, y: 0.053887516}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.7466667, y: 0.95666665}
+    newSize: {x: 3.7466667, y: 0.95666665}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.6214514, y: 0.6702234}
+  m_EdgeRadius: 0
 --- !u!1 &2595986523992905250
 GameObject:
   m_ObjectHideFlags: 0
@@ -12090,7 +13207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3788739801355378470}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sillas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12125,7 +13242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 523304836075459163}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Despacho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12162,7 +13279,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7795814433151485648}
   - component: {fileID: 860255316129904356}
-  m_Layer: 0
+  - component: {fileID: 3627357945600692195}
+  m_Layer: 3
   m_Name: Silla_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12239,6 +13357,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3627357945600692195
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2723856958215294827}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.69}
+    newSize: {x: 1.62, y: 1.69}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.62, y: 1.69}
+  m_EdgeRadius: 0
 --- !u!1 &2737282942829341899
 GameObject:
   m_ObjectHideFlags: 0
@@ -12249,7 +13413,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4862610705939334791}
   - component: {fileID: 4898588882789549666}
-  m_Layer: 0
+  - component: {fileID: 8463517236707344989}
+  m_Layer: 3
   m_Name: Almacen_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12326,6 +13491,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8463517236707344989
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2737282942829341899}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.5411715, y: -0.15494053}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.91333336, y: 0.8566667}
+    newSize: {x: 0.91333336, y: 0.8566667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.9956762, y: 1.1665478}
+  m_EdgeRadius: 0
 --- !u!1 &2770222001430892546
 GameObject:
   m_ObjectHideFlags: 0
@@ -12336,7 +13547,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3224020470390079706}
   - component: {fileID: 7933194311689441648}
-  m_Layer: 0
+  - component: {fileID: 3381637633060996277}
+  m_Layer: 3
   m_Name: Camaras_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12413,6 +13625,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3381637633060996277
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2770222001430892546}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.9000001, y: 4.166667}
+    newSize: {x: 5.7000003, y: 12.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.9000001, y: 4.166667}
+  m_EdgeRadius: 0
 --- !u!1 &2808714655773597503
 GameObject:
   m_ObjectHideFlags: 0
@@ -12423,7 +13681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4791253707819928721}
   - component: {fileID: 4724733008279619785}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12510,7 +13768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1937229642953161418}
   - component: {fileID: 4881000162694220867}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Campo_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12597,7 +13855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5375329750859973038}
   - component: {fileID: 7374623620037741661}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12683,7 +13941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6736013381788476512}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Camaras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12719,7 +13977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 404813631422343120}
   - component: {fileID: 2340523853239672550}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12805,7 +14063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 998808513940277841}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cocina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12841,7 +14099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5119277777774237138}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Enfermeria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12888,7 +14146,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6560572657568693962}
   - component: {fileID: 3049758422926817416}
-  m_Layer: 0
+  - component: {fileID: 2509952866172933999}
+  m_Layer: 3
   m_Name: Escritorio_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12965,6 +14224,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2509952866172933999
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203153317331296603}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.4233334, y: 2.04}
+    newSize: {x: 3.4233334, y: 2.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.4233334, y: 2.04}
+  m_EdgeRadius: 0
 --- !u!1 &3215856709655879971
 GameObject:
   m_ObjectHideFlags: 0
@@ -12975,7 +14280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5810415054521286791}
   - component: {fileID: 3382864618253432054}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13062,7 +14367,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6313858066312163178}
   - component: {fileID: 813896048372543393}
-  m_Layer: 0
+  - component: {fileID: 956847088500538530}
+  m_Layer: 3
   m_Name: Cocina_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13139,6 +14445,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &956847088500538530
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3216806685049300417}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.53, y: 1.73}
+    newSize: {x: 1.53, y: 1.73}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.53, y: 1.73}
+  m_EdgeRadius: 0
 --- !u!1 &3317359661564406153
 GameObject:
   m_ObjectHideFlags: 0
@@ -13149,7 +14501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3603572005101167309}
   - component: {fileID: 394635608355600953}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Almacen_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13236,7 +14588,8 @@ GameObject:
   m_Component:
   - component: {fileID: 956798893779749328}
   - component: {fileID: 935393447590957581}
-  m_Layer: 0
+  - component: {fileID: 4915200716696449668}
+  m_Layer: 3
   m_Name: Mesa_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13313,6 +14666,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4915200716696449668
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3449013214148116528}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.5033333, y: 1.98}
+    newSize: {x: 10.51, y: 5.94}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.5033333, y: 1.98}
+  m_EdgeRadius: 0
 --- !u!1 &3466762137635418918
 GameObject:
   m_ObjectHideFlags: 0
@@ -13323,7 +14722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8536408849922135722}
   - component: {fileID: 6205245552211864917}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13410,7 +14809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6386850274464415244}
   - component: {fileID: 3614171930310908188}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Enfermeria_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13497,7 +14896,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1482156575769766829}
   - component: {fileID: 6390681978945760645}
-  m_Layer: 0
+  - component: {fileID: 4390884142311824081}
+  m_Layer: 3
   m_Name: Almacen_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13574,6 +14974,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4390884142311824081
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3588292613372062638}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.027538061, y: 0.030597195}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.7733333, y: 0.89666665}
+    newSize: {x: 1.7733333, y: 0.89666665}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.7182572, y: 0.688604}
+  m_EdgeRadius: 0
 --- !u!1 &3619290022737709300
 GameObject:
   m_ObjectHideFlags: 0
@@ -13584,7 +15030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8955380436813435430}
   - component: {fileID: 2597887784888013680}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Almacen_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13671,7 +15117,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5998009761473941354}
   - component: {fileID: 1670977548221819508}
-  m_Layer: 0
+  - component: {fileID: 1024480450540616292}
+  m_Layer: 3
   m_Name: Mesa_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13748,6 +15195,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1024480450540616292
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654741842493323609}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.5033333, y: 1.98}
+    newSize: {x: 10.51, y: 5.94}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.5033333, y: 1.98}
+  m_EdgeRadius: 0
 --- !u!1 &3688976486120507528
 GameObject:
   m_ObjectHideFlags: 0
@@ -13758,7 +15251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1404751228562913105}
   - component: {fileID: 342411704019897017}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13845,7 +15338,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2985332680202438639}
   - component: {fileID: 597953074133516679}
-  m_Layer: 0
+  - component: {fileID: 8158972833600065779}
+  m_Layer: 3
   m_Name: Enfermeria_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13922,6 +15416,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8158972833600065779
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3758791841742253010}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 1.5566666}
+    newSize: {x: 0.28, y: 1.5566666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.28, y: 1.5566666}
+  m_EdgeRadius: 0
 --- !u!1 &3777702565217235459
 GameObject:
   m_ObjectHideFlags: 0
@@ -13931,7 +15471,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6810636043096686715}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bancos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13967,7 +15507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2184589287789359907}
   - component: {fileID: 4686073056305261908}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_8 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14054,7 +15594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7387080374695588982}
   - component: {fileID: 6821056979217330512}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14187,7 +15727,8 @@ GameObject:
   m_Component:
   - component: {fileID: 765442558104626056}
   - component: {fileID: 2346100248112943501}
-  m_Layer: 0
+  - component: {fileID: 5063462910707684418}
+  m_Layer: 3
   m_Name: Cocina_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14264,6 +15805,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5063462910707684418
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4801742894868522303}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.006196156}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.04, y: 1.13}
+    newSize: {x: 2.04, y: 1.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.04, y: 0.99368834}
+  m_EdgeRadius: 0
 --- !u!1 &4864290690700724801
 GameObject:
   m_ObjectHideFlags: 0
@@ -14274,7 +15861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4654660141026618614}
   - component: {fileID: 7508278919810591328}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14361,7 +15948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3513379879916853555}
   - component: {fileID: 7690214038984164733}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14448,7 +16035,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7051306506283289661}
   - component: {fileID: 1115189289365778564}
-  m_Layer: 0
+  - component: {fileID: 9030856853864903657}
+  m_Layer: 3
   m_Name: Mesa_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14525,6 +16113,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &9030856853864903657
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929138979352599536}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.5033333, y: 1.98}
+    newSize: {x: 10.51, y: 5.94}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.5033333, y: 1.98}
+  m_EdgeRadius: 0
 --- !u!1 &5087999396673009273
 GameObject:
   m_ObjectHideFlags: 0
@@ -14535,7 +16169,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7015357824812714357}
   - component: {fileID: 8620145635745477435}
-  m_Layer: 0
+  - component: {fileID: 2642931553913705320}
+  m_Layer: 3
   m_Name: Cama_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14612,6 +16247,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2642931553913705320
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5087999396673009273}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.08549124}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0966666, y: 2.1066666}
+    newSize: {x: 9.29, y: 6.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.0966666, y: 1.9356841}
+  m_EdgeRadius: 0
 --- !u!1 &5119594182971994684
 GameObject:
   m_ObjectHideFlags: 0
@@ -14622,7 +16303,8 @@ GameObject:
   m_Component:
   - component: {fileID: 168532896748390278}
   - component: {fileID: 8579775146249720453}
-  m_Layer: 0
+  - component: {fileID: 322530298704293090}
+  m_Layer: 3
   m_Name: Silla_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14699,6 +16381,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &322530298704293090
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119594182971994684}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.69}
+    newSize: {x: 4.86, y: 5.07}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.62, y: 1.69}
+  m_EdgeRadius: 0
 --- !u!1 &5140019874286085439
 GameObject:
   m_ObjectHideFlags: 0
@@ -14709,7 +16437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2859689009651380708}
   - component: {fileID: 3154531865759290014}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Despacho_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14796,7 +16524,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2735308914876566506}
   - component: {fileID: 7576793822896232020}
-  m_Layer: 0
+  - component: {fileID: 4217027295074106441}
+  m_Layer: 3
   m_Name: Banco_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14873,6 +16602,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4217027295074106441
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5166224453870659035}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.02054739}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.7466667, y: 0.95666665}
+    newSize: {x: 3.7466667, y: 0.95666665}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.7466667, y: 0.7922869}
+  m_EdgeRadius: 0
 --- !u!1 &5225849581259005108
 GameObject:
   m_ObjectHideFlags: 0
@@ -14883,7 +16658,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7260230247680107375}
   - component: {fileID: 4896007102187359474}
-  m_Layer: 0
+  - component: {fileID: 2094800528094830327}
+  m_Layer: 3
   m_Name: Almacen_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14960,6 +16736,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2094800528094830327
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5225849581259005108}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.503852, y: 0.37110162}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.91333336, y: 0.8566667}
+    newSize: {x: 0.91333336, y: 0.8566667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.9210374, y: 1.5988698}
+  m_EdgeRadius: 0
 --- !u!1 &5240437717390683190
 GameObject:
   m_ObjectHideFlags: 0
@@ -14970,7 +16792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4401091917511357037}
   - component: {fileID: 7608429897158595446}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15057,7 +16879,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4416619893450124489}
   - component: {fileID: 5197551530524319638}
-  m_Layer: 0
+  - component: {fileID: 4395705830274951529}
+  m_Layer: 3
   m_Name: Silla_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15134,6 +16957,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4395705830274951529
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5305833918209474806}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.69}
+    newSize: {x: 1.62, y: 1.69}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.62, y: 1.69}
+  m_EdgeRadius: 0
 --- !u!1 &5348125742155447609
 GameObject:
   m_ObjectHideFlags: 0
@@ -15144,7 +17013,8 @@ GameObject:
   m_Component:
   - component: {fileID: 808218387360973743}
   - component: {fileID: 6901692999464449539}
-  m_Layer: 0
+  - component: {fileID: 4463187476796582723}
+  m_Layer: 3
   m_Name: Escritorio_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15221,6 +17091,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4463187476796582723
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5348125742155447609}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.024681032}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.4233334, y: 2.04}
+    newSize: {x: 10.27, y: 6.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.4233334, y: 1.9906379}
+  m_EdgeRadius: 0
 --- !u!1 &5349679695530515758
 GameObject:
   m_ObjectHideFlags: 0
@@ -15231,7 +17147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2106465173023711303}
   - component: {fileID: 3809205778978697697}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Enfermeria_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15318,7 +17234,8 @@ GameObject:
   m_Component:
   - component: {fileID: 705400132356522646}
   - component: {fileID: 5741743229658152395}
-  m_Layer: 0
+  - component: {fileID: 5260498729631048451}
+  m_Layer: 3
   m_Name: Campo_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15395,6 +17312,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5260498729631048451
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5385060051744216105}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1533334, y: 0.33666667}
+    newSize: {x: 3.4600003, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.1533334, y: 0.33666667}
+  m_EdgeRadius: 0
 --- !u!1 &5414110853358046546
 GameObject:
   m_ObjectHideFlags: 0
@@ -15405,7 +17368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8772273308631159954}
   - component: {fileID: 2067009681716749376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Enfermeria_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15492,7 +17455,8 @@ GameObject:
   m_Component:
   - component: {fileID: 319857441114375516}
   - component: {fileID: 5506517102212612089}
-  m_Layer: 0
+  - component: {fileID: 4438111877189228528}
+  m_Layer: 3
   m_Name: Mesa_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15569,6 +17533,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4438111877189228528
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5497924949784263116}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.5033333, y: 1.98}
+    newSize: {x: 10.51, y: 5.94}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.5033333, y: 1.98}
+  m_EdgeRadius: 0
 --- !u!1 &5583479090492319359
 GameObject:
   m_ObjectHideFlags: 0
@@ -15579,7 +17589,8 @@ GameObject:
   m_Component:
   - component: {fileID: 9071275944849722142}
   - component: {fileID: 2954504303663150851}
-  m_Layer: 0
+  - component: {fileID: 8487541159022625897}
+  m_Layer: 3
   m_Name: Banco_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15656,6 +17667,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8487541159022625897
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5583479090492319359}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.7466667, y: 0.95666665}
+    newSize: {x: 3.7466667, y: 0.95666665}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.7466667, y: 0.95666665}
+  m_EdgeRadius: 0
 --- !u!1 &5662132740467317526
 GameObject:
   m_ObjectHideFlags: 0
@@ -15666,7 +17723,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7974040466468057193}
   - component: {fileID: 420219467658817958}
-  m_Layer: 0
+  - component: {fileID: 2424742655460294028}
+  m_Layer: 3
   m_Name: Silla_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15743,6 +17801,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2424742655460294028
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5662132740467317526}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.62, y: 1.69}
+    newSize: {x: 4.86, y: 5.07}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.62, y: 1.69}
+  m_EdgeRadius: 0
 --- !u!1 &5676924397125987142
 GameObject:
   m_ObjectHideFlags: 0
@@ -15753,7 +17857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8107931891124125602}
   - component: {fileID: 7215816704110675862}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15840,7 +17944,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5551311734281526709}
   - component: {fileID: 7274574788779523579}
-  m_Layer: 0
+  - component: {fileID: 1078137707316422930}
+  m_Layer: 3
   m_Name: Campo_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15917,6 +18022,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1078137707316422930
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5935798386897720531}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1533334, y: 0.33666667}
+    newSize: {x: 3.4600003, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.1533334, y: 0.33666667}
+  m_EdgeRadius: 0
 --- !u!1 &6024766136033668407
 GameObject:
   m_ObjectHideFlags: 0
@@ -15926,7 +18077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8947356708430645612}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cantina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15960,7 +18111,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3908212592726560166}
   - component: {fileID: 7662208865436278893}
-  m_Layer: 0
+  - component: {fileID: 3853986143881366061}
+  m_Layer: 3
   m_Name: Armeria_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16037,6 +18189,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3853986143881366061
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6194697518942608900}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5133333, y: 1.9300001}
+    newSize: {x: 1.5133333, y: 1.9300001}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.5133333, y: 1.9300001}
+  m_EdgeRadius: 0
 --- !u!1 &6334975489999100169
 GameObject:
   m_ObjectHideFlags: 0
@@ -16047,7 +18245,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2540121520553804489}
   - component: {fileID: 1429072417634807080}
-  m_Layer: 0
+  - component: {fileID: 5173616787919528309}
+  m_Layer: 3
   m_Name: Cocina_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16124,6 +18323,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5173616787919528309
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6334975489999100169}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.05308652}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.04, y: 1.13}
+    newSize: {x: 2.04, y: 1.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.04, y: 1.0238271}
+  m_EdgeRadius: 0
 --- !u!1 &6442399176870091462
 GameObject:
   m_ObjectHideFlags: 0
@@ -16134,7 +18379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6727743022599002373}
   - component: {fileID: 3197114888328600106}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cocina_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16221,7 +18466,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2927048552982374903}
   - component: {fileID: 8794744136841429763}
-  m_Layer: 0
+  - component: {fileID: 938563019260394869}
+  m_Layer: 3
   m_Name: Cocina_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16298,6 +18544,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &938563019260394869
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6599785194740271722}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.04102142}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.04, y: 1.13}
+    newSize: {x: 2.04, y: 1.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.04, y: 1.0479573}
+  m_EdgeRadius: 0
 --- !u!1 &6606623366906329027
 GameObject:
   m_ObjectHideFlags: 0
@@ -16308,7 +18600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3284156211831747709}
   - component: {fileID: 655108048453031554}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Almacen_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16395,7 +18687,8 @@ GameObject:
   m_Component:
   - component: {fileID: 9069908813791148405}
   - component: {fileID: 2252848233101748611}
-  m_Layer: 0
+  - component: {fileID: 6373503597520033970}
+  m_Layer: 3
   m_Name: Almacen_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16472,6 +18765,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &6373503597520033970
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6671959784911161395}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.7733333, y: 0.89666665}
+    newSize: {x: 1.7733333, y: 0.89666665}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.7733333, y: 0.89666665}
+  m_EdgeRadius: 0
 --- !u!1 &6708617344546962946
 GameObject:
   m_ObjectHideFlags: 0
@@ -16482,7 +18821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7919651211099960043}
   - component: {fileID: 7876532336881155368}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16569,7 +18908,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2054784021516781883}
   - component: {fileID: 8843218306984870197}
-  m_Layer: 0
+  - component: {fileID: 8536121637722746337}
+  m_Layer: 3
   m_Name: Cantina_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16646,6 +18986,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8536121637722746337
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6718653039754105490}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0900574, y: 1.9966666}
+    newSize: {x: 3.0900574, y: 1.9966666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.0900574, y: 1.9966666}
+  m_EdgeRadius: 0
 --- !u!1 &6802220280690415656
 GameObject:
   m_ObjectHideFlags: 0
@@ -16656,7 +19042,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8449037633990879935}
   - component: {fileID: 9213805921991628704}
-  m_Layer: 0
+  - component: {fileID: 3324331178901872461}
+  m_Layer: 3
   m_Name: Despacho_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16733,6 +19120,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3324331178901872461
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6802220280690415656}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.089041784}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.3066669, y: 1.1966667}
+    newSize: {x: 2.3066669, y: 1.1966667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.3066669, y: 1.0185832}
+  m_EdgeRadius: 0
 --- !u!1 &6868287428713260038
 GameObject:
   m_ObjectHideFlags: 0
@@ -16743,7 +19176,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7085598996473525993}
   - component: {fileID: 5968712500931961389}
-  m_Layer: 0
+  - component: {fileID: 5651566419195888873}
+  m_Layer: 3
   m_Name: Cantina_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16820,6 +19254,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5651566419195888873
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6868287428713260038}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.430082, y: 3.0133333}
+    newSize: {x: 4.430082, y: 3.0133333}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4.430082, y: 3.0133333}
+  m_EdgeRadius: 0
 --- !u!1 &6988890114129277987
 GameObject:
   m_ObjectHideFlags: 0
@@ -16830,7 +19310,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2082117259151890668}
   - component: {fileID: 1166498669115496786}
-  m_Layer: 0
+  - component: {fileID: 4883348714237244004}
+  m_Layer: 3
   m_Name: Cama_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16907,6 +19388,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4883348714237244004
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6988890114129277987}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0966666, y: 2.1066666}
+    newSize: {x: 9.29, y: 6.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.0966666, y: 2.1066666}
+  m_EdgeRadius: 0
 --- !u!1 &7029769725718682453
 GameObject:
   m_ObjectHideFlags: 0
@@ -16917,7 +19444,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7540210085791589879}
   - component: {fileID: 1758411571161778475}
-  m_Layer: 0
+  - component: {fileID: 4054078209103859729}
+  m_Layer: 3
   m_Name: Escritorio_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16994,6 +19522,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4054078209103859729
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7029769725718682453}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.4233334, y: 2.04}
+    newSize: {x: 3.4233334, y: 2.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.4233334, y: 2.04}
+  m_EdgeRadius: 0
 --- !u!1 &7081689147212475359
 GameObject:
   m_ObjectHideFlags: 0
@@ -17004,7 +19578,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1917146939427180014}
   - component: {fileID: 4170903161689758435}
-  m_Layer: 0
+  - component: {fileID: 4585209701201732902}
+  m_Layer: 3
   m_Name: Cocina_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17081,6 +19656,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4585209701201732902
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7081689147212475359}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.026965797, y: -0.02696544}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.04, y: 1.13}
+    newSize: {x: 2.04, y: 1.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.9860684, y: 1.0760692}
+  m_EdgeRadius: 0
 --- !u!1 &7203849708330238427
 GameObject:
   m_ObjectHideFlags: 0
@@ -17091,7 +19712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 949223638109766077}
   - component: {fileID: 830213413528557441}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Campo_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17178,7 +19799,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6427193786576017288}
   - component: {fileID: 6856857736474782987}
-  m_Layer: 0
+  - component: {fileID: 5499260648278559671}
+  m_Layer: 3
   m_Name: Campo_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17255,6 +19877,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5499260648278559671
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210690690581888010}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 7.413869, y: -0.091578245}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.2066665, y: 1.13}
+    newSize: {x: 2.2066665, y: 1.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 17.034407, y: 0.9468436}
+  m_EdgeRadius: 0
 --- !u!1 &7213114532896512737
 GameObject:
   m_ObjectHideFlags: 0
@@ -17265,7 +19933,8 @@ GameObject:
   m_Component:
   - component: {fileID: 626581934768551034}
   - component: {fileID: 1849529334365527783}
-  m_Layer: 0
+  - component: {fileID: 949562658168167054}
+  m_Layer: 3
   m_Name: Elec_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17342,6 +20011,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &949562658168167054
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213114532896512737}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.09520878}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.9866667, y: 1.1800001}
+    newSize: {x: 1.9866667, y: 1.1800001}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.9866667, y: 0.98958254}
+  m_EdgeRadius: 0
 --- !u!1 &7220465450208779716
 GameObject:
   m_ObjectHideFlags: 0
@@ -17352,7 +20067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3204083662178339006}
   - component: {fileID: 2867851074187299995}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_8 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17438,7 +20153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5563270364181385278}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Escritorios
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17474,7 +20189,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2237952521931243392}
   - component: {fileID: 5995011443659241899}
-  m_Layer: 0
+  - component: {fileID: 3933752500847830163}
+  m_Layer: 3
   m_Name: Despacho_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17551,6 +20267,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3933752500847830163
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7301018959651308531}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.090424076}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.3066669, y: 1.1966667}
+    newSize: {x: 2.3066669, y: 1.1966667}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.3066669, y: 1.0158186}
+  m_EdgeRadius: 0
 --- !u!1 &7309882811671882439
 GameObject:
   m_ObjectHideFlags: 0
@@ -17561,7 +20323,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1033989370907149702}
   - component: {fileID: 2933279402397709392}
-  m_Layer: 0
+  - component: {fileID: 4810684975627435245}
+  m_Layer: 3
   m_Name: Enfermeria_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17638,101 +20401,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &7475600679694742125
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7866852835570278675}
-  - component: {fileID: 3316059636779942364}
-  - component: {fileID: 2883634484451192355}
-  m_Layer: 3
-  m_Name: Square (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7866852835570278675
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7475600679694742125}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.540998, y: 4.6642466, z: 0.039671253}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1549657746170010882}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3316059636779942364
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7475600679694742125}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!61 &2883634484451192355
+--- !u!61 &4810684975627435245
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7475600679694742125}
+  m_GameObject: {fileID: 7309882811671882439}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -17764,13 +20439,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 1.6866667, y: 0.7366667}
+    newSize: {x: 1.6866667, y: 0.7366667}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.6866667, y: 0.7366667}
   m_EdgeRadius: 0
 --- !u!1 &7708301894747583040
 GameObject:
@@ -17782,7 +20457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4778954128038528686}
   - component: {fileID: 4529154878944889780}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17869,7 +20544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7006784103369915342}
   - component: {fileID: 8149657187328747793}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Escritorio_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17956,7 +20631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6936672264130829637}
   - component: {fileID: 1782134585801281344}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18043,7 +20718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5949709745051483898}
   - component: {fileID: 8414948258958607867}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18130,7 +20805,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3250452110241636304}
   - component: {fileID: 7839453516683255512}
-  m_Layer: 0
+  - component: {fileID: 3478079354332120620}
+  m_Layer: 3
   m_Name: Armeria_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18207,6 +20883,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3478079354332120620
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7971251738010458472}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.040156603}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.8566667, y: 1.12}
+    newSize: {x: 1.8566667, y: 1.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.8566667, y: 1.0396867}
+  m_EdgeRadius: 0
 --- !u!1 &8017925684565963994
 GameObject:
   m_ObjectHideFlags: 0
@@ -18217,7 +20939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8404398741246400522}
   - component: {fileID: 3935364032073872529}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Campo_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18304,7 +21026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3857080835151656682}
   - component: {fileID: 8967195792099892283}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18391,7 +21113,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7540173687271536840}
   - component: {fileID: 7139725952798163546}
-  m_Layer: 0
+  - component: {fileID: 2566699474364899829}
+  m_Layer: 3
   m_Name: Campo_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18468,6 +21191,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2566699474364899829
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8113696574716235885}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1533334, y: 0.33666667}
+    newSize: {x: 3.4600003, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.1533334, y: 0.33666667}
+  m_EdgeRadius: 0
 --- !u!1 &8218130691169420822
 GameObject:
   m_ObjectHideFlags: 0
@@ -18478,7 +21247,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5688195470878365578}
   - component: {fileID: 2448169518586025003}
-  m_Layer: 0
+  - component: {fileID: 2910421145229601529}
+  m_Layer: 3
   m_Name: Escritorio_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18555,6 +21325,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2910421145229601529
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8218130691169420822}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.0452483}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.4233334, y: 2.04}
+    newSize: {x: 10.27, y: 6.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.4233334, y: 1.9495034}
+  m_EdgeRadius: 0
 --- !u!1 &8257205357286428951
 GameObject:
   m_ObjectHideFlags: 0
@@ -18565,7 +21381,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2720926552360846069}
   - component: {fileID: 5503308119869986598}
-  m_Layer: 0
+  - component: {fileID: 5150132690161841376}
+  m_Layer: 3
   m_Name: Escritorio_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18642,6 +21459,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5150132690161841376
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257205357286428951}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.07404333}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.4233334, y: 2.04}
+    newSize: {x: 3.4233334, y: 2.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.4233334, y: 1.8919133}
+  m_EdgeRadius: 0
 --- !u!1 &8274661010039384296
 GameObject:
   m_ObjectHideFlags: 0
@@ -46479,7 +49342,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3634092979678033874}
   - component: {fileID: 5091662637713879674}
-  m_Layer: 0
+  - component: {fileID: 7091007406569628575}
+  m_Layer: 3
   m_Name: Campo_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46556,6 +49420,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &7091007406569628575
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8410336658344257670}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1533334, y: 0.33666667}
+    newSize: {x: 3.4600003, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.1533334, y: 0.33666667}
+  m_EdgeRadius: 0
 --- !u!1 &8561276136549811535
 GameObject:
   m_ObjectHideFlags: 0
@@ -46565,7 +49475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7932677375908299848}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Almacen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46612,7 +49522,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7527238241230575107}
   - component: {fileID: 2136352507679951787}
-  m_Layer: 0
+  - component: {fileID: 373530749267216183}
+  m_Layer: 3
   m_Name: Elec_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46689,6 +49600,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &373530749267216183
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8658222564769446231}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.0765138}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.9866667, y: 1.1800001}
+    newSize: {x: 1.9866667, y: 1.1800001}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.9866667, y: 0.8643823}
+  m_EdgeRadius: 0
 --- !u!1 &8712307181112316753
 GameObject:
   m_ObjectHideFlags: 0
@@ -46698,7 +49655,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8012436253542371988}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46763,7 +49720,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1916099474856049600}
   - component: {fileID: 6192301924370878748}
-  m_Layer: 0
+  - component: {fileID: 3106909921001378319}
+  m_Layer: 3
   m_Name: Cama_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46840,6 +49798,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &3106909921001378319
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8751826145586010219}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.11340365}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0966666, y: 2.1066666}
+    newSize: {x: 9.29, y: 6.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.0966666, y: 1.8798592}
+  m_EdgeRadius: 0
 --- !u!1 &8762570279788946347
 GameObject:
   m_ObjectHideFlags: 0
@@ -46850,7 +49854,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6701404602225185090}
   - component: {fileID: 5026430680815116666}
-  m_Layer: 0
+  - component: {fileID: 8763113573395251468}
+  m_Layer: 3
   m_Name: Cocina_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46927,6 +49932,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8763113573395251468
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8762570279788946347}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.048260227}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.04, y: 1.13}
+    newSize: {x: 2.04, y: 1.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.04, y: 1.0334795}
+  m_EdgeRadius: 0
 --- !u!1 &8782557777124893352
 GameObject:
   m_ObjectHideFlags: 0
@@ -46937,7 +49988,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5089157151549466845}
   - component: {fileID: 3920320629105817681}
-  m_Layer: 0
+  - component: {fileID: 2633577290322962533}
+  m_Layer: 3
   m_Name: Enfermeria_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47014,6 +50066,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2633577290322962533
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8782557777124893352}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 1.5566666}
+    newSize: {x: 0.28, y: 1.5566666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.28, y: 1.5566666}
+  m_EdgeRadius: 0
 --- !u!1 &8862483504497065802
 GameObject:
   m_ObjectHideFlags: 0
@@ -47024,7 +50122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8337900570121054316}
   - component: {fileID: 7066210458120667102}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Campo_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47111,7 +50209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8618927550723756253}
   - component: {fileID: 7683354072321752658}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47198,7 +50296,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8929934322697067927}
   - component: {fileID: 8601998006039037763}
-  m_Layer: 0
+  - component: {fileID: 88082283226418053}
+  m_Layer: 3
   m_Name: Campo_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47275,6 +50374,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &88082283226418053
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9071700563498368741}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1533334, y: 0.33666667}
+    newSize: {x: 3.4600003, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.1533334, y: 0.33666667}
+  m_EdgeRadius: 0
 --- !u!1 &9131058066386285627
 GameObject:
   m_ObjectHideFlags: 0
@@ -47285,7 +50430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 715208753651706626}
   - component: {fileID: 5470011117477436875}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Campo_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47372,7 +50517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8466254750016589344}
   - component: {fileID: 5709432391895413249}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armeria_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47459,7 +50604,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2259468596647289228}
   - component: {fileID: 2768450237126885164}
-  m_Layer: 0
+  - component: {fileID: 7802821489611836411}
+  m_Layer: 3
   m_Name: Cama_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47536,3 +50682,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &7802821489611836411
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9200467079072673070}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.104399234}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.0966666, y: 2.1066666}
+    newSize: {x: 9.29, y: 6.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.0966666, y: 1.8978682}
+  m_EdgeRadius: 0
