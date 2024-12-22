@@ -2,6 +2,8 @@ using TMPro;
 using System.Collections;
 using NUnit.Framework.Internal.Commands;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UIElements;
 
 public class UIManager : MonoBehaviour
 {
@@ -11,6 +13,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TMP_Text _name;
     private string _sentence;
 
+    [FormerlySerializedAs("_clock1")] [SerializeField] private RectTransform _clockBig;
+    [FormerlySerializedAs("_clock2")] [SerializeField] private RectTransform _clockLittle;
     public bool Typing { get; private set; }
 
     public void ChangeDialogue(string text, string speakerName)
@@ -54,5 +58,11 @@ public class UIManager : MonoBehaviour
         StopAllCoroutines();
         _message.text = _sentence;
         Typing = false;
+    }
+
+    public void UpdateClock(float speed)
+    {
+        _clockBig.Rotate(-Vector3.forward, speed * Time.deltaTime);
+        _clockLittle.Rotate(-Vector3.forward, speed * 60 * Time.deltaTime);
     }
 }

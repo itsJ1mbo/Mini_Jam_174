@@ -27,7 +27,7 @@ public class Guion : MonoBehaviour
     
     public void NextLine()
     {
-        Vector2 point;
+        //Vector2 point;
         Story activeStory = _inkStories[0];
         
         if (activeStory.canContinue)
@@ -60,14 +60,16 @@ public class Guion : MonoBehaviour
     {
         foreach (TextAsset t in _textAssets)
         {
-            _inkStories.Add(new Story(t.text));
+            Story s = new Story(t.text);
             if (gameObject.GetComponent<FlagInteraction>())
             {
-                _inkStories.Last().BindExternalFunction("ActivateFlag", () =>
+                s.BindExternalFunction("ActivateFlag", () =>
                 {
                     gameObject.GetComponent<FlagInteraction>().activateFlag();
                 });
             }
+            
+            _inkStories.Add(s);
         }
     }
 
