@@ -167,6 +167,7 @@ public class DungeonMaster : MonoBehaviour
         /*Debug.Log(_currentTimePeriod);
         Debug.Log(_currentFlags.ToBinaryString());*/
     }
+    
     private void UpdateGameState()
     {
         foreach (GameObject entity in _entities)

@@ -22,7 +22,6 @@ public class GuardStateHandler : StateHandler
             case TimePeriod.Evening:
                 Flags drugged = Flags.TeaPosioned | Flags.DrankTea | Flags.TeaPrepared;
                 Flags drank = Flags.DrankTea | Flags.TeaPrepared;
-                Debug.Log(drugged);
                 if(DungeonMaster.Instance.GetFlags().HasFlag(drugged))
                 {
                     transform.position = positions[3];
