@@ -24,13 +24,14 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext obj)
     {
+        Debug.Log("MOVE");
         _direction = new Vector3(obj.ReadValue<Vector2>().x, obj.ReadValue<Vector2>().y, 0).normalized;
     }
 
     private bool IsBlocked(Vector3 direction)
     {
         RaycastHit2D hit = Physics2D.CircleCast(_tr.position, 
-                                                _sprite.size.x * 0.5f, 
+                                                _sprite.size.x * 0.5f * 0.1f, 
                                                 direction,
                                                 _checkDistance, 
                                                 _obstacleLayer);
