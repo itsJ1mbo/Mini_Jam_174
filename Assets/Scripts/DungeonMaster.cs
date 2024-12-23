@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using Vector3 = UnityEngine.Vector3;
 
@@ -51,6 +52,8 @@ public enum TimePeriod
 
 public class DungeonMaster : MonoBehaviour
 {
+    [SerializeField] private float _fastForwardSpeed = 5.0f;
+    
     [SerializeField] private GameObject _player;
     
     [SerializeField] private ScreenFade[] _timePeriodAnims = new ScreenFade[8];
@@ -110,7 +113,6 @@ public class DungeonMaster : MonoBehaviour
             return;
         }
         Instance = this;
-        DontDestroyOnLoad(gameObject);
     }
 
     void Start()
@@ -129,6 +131,8 @@ public class DungeonMaster : MonoBehaviour
             _uiManager.UpdateClock(120/ (_timePeriodLength * 60));
             if (_timePeriodTimer >= _timePeriodLength * MINUTE_LENGTH)
             {
+                if(Time.timeScale == _fastForwardSpeed)
+                    ToggleFastForward();
                 _runTimer = false;
                 NextTimePeriod();
             }
@@ -138,6 +142,31 @@ public class DungeonMaster : MonoBehaviour
     #endregion
     
     #region Public Functions
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+    
+    public void PauseGame()
+    {
+        Time.timeScale = 0.0f;
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1.0f;
+    }
+    public void ToggleFastForward()
+    {
+        _player.GetComponent<PlayerMovement>().ToggleMove();
+        if (Time.timeScale != _fastForwardSpeed)
+            Time.timeScale = _fastForwardSpeed;
+        else
+            Time.timeScale = 1.0f;
+        
+    }
+    
     public GameObject GetPlayer() { return _player; }
     public UIManager GetUIManager() { return _uiManager; }
     public void SetFlag(Flags flag) { _currentFlags |= flag; }
