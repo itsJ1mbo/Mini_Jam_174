@@ -18,17 +18,19 @@ public class GuardStateHandler : StateHandler
                 _script.ActiveStory = _script.AfternoonStories[0];
                 break;
             case TimePeriod.Evening:
-                Flags drugged = Flags.TeaPosioned | Flags.DrankTea | Flags.TeaPrepared;
-                Flags drank = Flags.DrankTea | Flags.TeaPrepared;
+                Flags drugged = Flags.TeaPosioned | Flags.TeaPrepared;
+                Flags drank = Flags.TeaPrepared;
                 if(DungeonMaster.Instance.GetFlags().HasFlag(drugged))
                 {
                     transform.position = positions[3];
                     _script.ActiveStory = _script.NightStories[2];
+                    DungeonMaster.Instance.SetFlag(Flags.DrankTea);
                 }
                 else if(DungeonMaster.Instance.GetFlags().HasFlag(drank))
                 {
                     transform.position = positions[2];
                     _script.ActiveStory = _script.NightStories[1];
+                    DungeonMaster.Instance.SetFlag(Flags.DrankTea);
                 }
                 else
                 {

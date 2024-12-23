@@ -27,6 +27,11 @@ public class TechnicianStateHandler : StateHandler
                     transform.position = positions[1];
                     _script.ActiveStory = _script.AfternoonStories[0];
                     transform.rotation = rotations[1];
+                    foreach (GameObject cam in DungeonMaster.Instance.GetCams())
+                    {
+                        cam.GetComponent<SpriteRenderer>().color = Color.white;
+                    }
+                    
                 }
                 break;
             case TimePeriod.Evening:
@@ -41,6 +46,11 @@ public class TechnicianStateHandler : StateHandler
                     transform.position = positions[2];
                     transform.rotation = rotations[2];
                     _script.ActiveStory = _script.NightStories[0];
+                    foreach (GameObject cam in DungeonMaster.Instance.GetCams())
+                    {
+                        cam.GetComponent<SpriteRenderer>().color = Color.white;
+                    }
+                    
                 }
                 break;
             default:

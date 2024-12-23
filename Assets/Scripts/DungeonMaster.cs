@@ -67,6 +67,8 @@ public class DungeonMaster : MonoBehaviour
     
     [SerializeField] private ScreenFade[] _timePeriodAnims = new ScreenFade[8];
 
+    [SerializeField] private List<GameObject> _cams;
+
     [SerializeField]
     private UIManager _uiManager;
     
@@ -170,6 +172,10 @@ public class DungeonMaster : MonoBehaviour
             Time.timeScale = 1.0f;
         
     }
+
+    public void SetCam(GameObject c) { _cams.Add(c); }
+    
+    public List<GameObject> GetCams() { return _cams;}
     
     public GameObject GetPlayer() { return _player; }
     public UIManager GetUIManager() { return _uiManager; }
