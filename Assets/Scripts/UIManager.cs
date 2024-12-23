@@ -26,7 +26,7 @@ public class UIManager : MonoBehaviour
             return;
         }
         
-        Debug.Log(text + " " + Typing);
+        
         _dialogue.SetActive(true);
         _sentence = text;
         _name.text = speakerName;
