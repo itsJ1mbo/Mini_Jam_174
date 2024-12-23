@@ -38,6 +38,7 @@ public class CameraManStateHandler : StateHandler
     public void LightsOut()
     {
         transform.position = positions[3];
+        _script.ActiveStory = _script.AfternoonStories[1];
         //cambiar texto
     }
 }
