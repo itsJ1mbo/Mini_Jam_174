@@ -1305,11 +1305,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.93
+      value: -16.21
       objectReference: {fileID: 0}
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.4
+      value: -9.97
       objectReference: {fileID: 0}
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1317,7 +1317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1329,7 +1329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1341,7 +1341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2350818553557958858, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: _vel
@@ -3380,6 +3380,7 @@ GameObject:
   - component: {fileID: 687669391}
   - component: {fileID: 687669390}
   - component: {fileID: 687669393}
+  - component: {fileID: 687669394}
   m_Layer: 6
   m_Name: Elec_2
   m_TagString: Untagged
@@ -3517,7 +3518,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _flag: 16
   _disappearOnInteraction: 0
+  _cutSprite: {fileID: 572581601, guid: 9a61bab72ecbb3d498f2b7add0698a18, type: 3}
   _cameraManStateHandler: {fileID: 688037586}
+--- !u!114 &687669394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687669389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc45888bba3a83c468361d3d0004dff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  rotations:
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  _normalSprite: {fileID: -5584734866022852967, guid: 9a61bab72ecbb3d498f2b7add0698a18, type: 3}
 --- !u!1 &688037580 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7409935580757914692, guid: 3d0c278a0a1e0014a803fcf538f0a8c0, type: 3}

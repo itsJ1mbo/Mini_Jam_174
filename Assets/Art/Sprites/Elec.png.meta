@@ -127,7 +127,7 @@ TextureImporter:
         width: 596
         height: 354
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,7 +149,7 @@ TextureImporter:
         width: 672
         height: 636
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,7 +171,7 @@ TextureImporter:
         width: 567
         height: 359
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,11 +184,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Elec_3
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 268
+        width: 616
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b465eaf3b05464f899f17f212e3818
+      internalID: 572581601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 931e828c042cf6144878ab8ccdd7d486
     internalID: 0
     vertices: []
     indices: 
@@ -201,6 +223,7 @@ TextureImporter:
       Elec_0: -8415163864741600760
       Elec_1: -689107089862229251
       Elec_2: -5584734866022852967
+      Elec_3: 572581601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
