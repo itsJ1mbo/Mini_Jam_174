@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class CameraManStateHandler : StateHandler
 {
-    // Update is called once per frame
     public override void UpdateState()
     {
         _script = GetComponent<Guion>();
@@ -34,5 +33,11 @@ public class CameraManStateHandler : StateHandler
             default:
                 throw new ArgumentOutOfRangeException();
         }
+    }
+
+    public void LightsOut()
+    {
+        transform.position = positions[3];
+        //cambiar texto
     }
 }
