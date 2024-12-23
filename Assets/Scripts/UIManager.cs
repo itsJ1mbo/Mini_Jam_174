@@ -16,6 +16,8 @@ public class UIManager : MonoBehaviour
 
     [FormerlySerializedAs("_clock1")] [SerializeField] private RectTransform _clockBig;
     [FormerlySerializedAs("_clock2")] [SerializeField] private RectTransform _clockLittle;
+    
+    [SerializeField] private TMP_Text _endgameText;
     public bool Typing { get; private set; }
 
     public void ChangeDialogue(string text, string speakerName)
@@ -65,5 +67,17 @@ public class UIManager : MonoBehaviour
     {
         _clockBig.Rotate(-Vector3.forward, speed * Time.deltaTime);
         _clockLittle.Rotate(-Vector3.forward, speed * 60 * Time.deltaTime);
+    }
+
+    public void UpdateEndGameText()
+    {
+        if (DungeonMaster.Instance.GetFlags().HasFlag(Flags.Win))
+        {
+            _endgameText.text = "You accomplished your mission with the precision of a swiss clock, when you returned to your country you were awarded for your services. ";
+        }
+        else
+        {
+            _endgameText.text = "Unfortunately, you were discovered and sentenced to death for being a spy. The date of your execution arrived and your death was swift, but just as everything began to fade to black, a sudden light appeared. You opened your eyes to live another day, but was it really another day?";
+        }
     }
 }

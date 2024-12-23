@@ -25,7 +25,8 @@ using Vector3 = UnityEngine.Vector3;
     CamerasSabotaged = 32,
     TeaPrepared = 64,
     TeaPosioned = 128,
-    DrankTea = 256
+    DrankTea = 256,
+    Win = 511
 }
 
 [Flags] public enum NPCsFlags 
@@ -52,13 +53,19 @@ public enum TimePeriod
 
 public class DungeonMaster : MonoBehaviour
 {
+    private const float MINUTE_LENGTH = 60.0F;
+    
+    /// <summary>
+    /// Duracion de las etapas del juego
+    /// </summary>
+    [Tooltip("Duración de cada periodo de tiempo del juego en minutos")] 
+    [SerializeField] private float _timePeriodLength = 5;
+    
     [SerializeField] private float _fastForwardSpeed = 5.0f;
     
     [SerializeField] private GameObject _player;
     
     [SerializeField] private ScreenFade[] _timePeriodAnims = new ScreenFade[8];
-    
-    private const float MINUTE_LENGTH = 60.0F;
 
     [SerializeField]
     private UIManager _uiManager;
@@ -87,11 +94,7 @@ public class DungeonMaster : MonoBehaviour
     /// lista de nieblas
     /// </summary>
     private List<GameObject> fogObjects = new List<GameObject>();
-    /// <summary>
-    /// Duracion de las etapas del juego
-    /// </summary>
-    [Tooltip("Duración de cada periodo de tiempo del juego en minutos")] 
-    [SerializeField] private float _timePeriodLength = 5;
+
     /// <summary>
     /// Timer interno para las etapas del juego
     /// </summary>
@@ -124,18 +127,19 @@ public class DungeonMaster : MonoBehaviour
     void Update()
     {
         //Debug.Log(_timePeriodTimer);
-        if (_runTimer && _currentTimePeriod != TimePeriod.EndGame)
+        if (_runTimer)
         {
-            _timePeriodTimer += Time.deltaTime;
-            //Debug.Log(_timePeriodTimer);
-            _uiManager.UpdateClock(120/ (_timePeriodLength * 60));
             if (_timePeriodTimer >= _timePeriodLength * MINUTE_LENGTH)
             {
                 if(Time.timeScale == _fastForwardSpeed)
                     ToggleFastForward();
                 _runTimer = false;
-                NextTimePeriod();
+                if(_currentTimePeriod != TimePeriod.EndGame)
+                    NextTimePeriod();
             }
+            _timePeriodTimer += Time.deltaTime;
+            //Debug.Log(_timePeriodTimer);
+            _uiManager.UpdateClock(120/ (_timePeriodLength * 60));
         }
     }
     
@@ -206,6 +210,8 @@ public class DungeonMaster : MonoBehaviour
     {
         _currentTimePeriod++;
         _timePeriodAnims[(int)_currentTimePeriod].PlayFade();
+        if(_currentTimePeriod == TimePeriod.EndGame)
+            _uiManager.UpdateEndGameText();
     }
 
     public void NextTimePeriodCallback()
@@ -216,6 +222,18 @@ public class DungeonMaster : MonoBehaviour
         _runTimer = true;
     }
 
+    public void EndGameCallback()
+    {
+        if (_currentFlags.HasFlag(Flags.Win))
+        {
+            Application.Quit();
+        }
+        else
+        {
+            SceneManager.LoadScene(1);
+        }
+    }
+    
     #endregion
     
     #endregion

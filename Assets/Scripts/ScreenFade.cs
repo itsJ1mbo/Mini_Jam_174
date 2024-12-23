@@ -24,6 +24,8 @@ public class ScreenFade : MonoBehaviour
     {
         if (_playAnim)
         {
+            //Debug.Log(Time.timeScale);
+
             if (_animTimer < _animDuration * 0.5f)
             {
                 _blackScreen.alpha += _fadeSpeed * Time.deltaTime;
@@ -43,13 +45,14 @@ public class ScreenFade : MonoBehaviour
             }
             
             _animTimer += Time.deltaTime;
-        }
-        if (_animTimer >= _animDuration)
-        {
-            _playAnim = false;
-            _eventsExecuted = false;
-            _animTimer = 0;
-            _blackScreen.alpha = 0;
+         
+            if (_animTimer >= _animDuration)
+            {
+                _playAnim = false;
+                _eventsExecuted = false;
+                _animTimer = 0;
+                _blackScreen.alpha = 0;
+            }
         }
     }
     
