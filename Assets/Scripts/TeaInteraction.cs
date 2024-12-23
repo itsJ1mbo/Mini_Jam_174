@@ -6,8 +6,6 @@ public class TeaInteraction : FlagInteraction
     
     public override void activateFlag()
     {
-        Debug.Log("ENTRO");
-        Debug.Log(!DungeonMaster.Instance.GetFlags().HasFlag(Flags.TeaPrepared));
         if (DungeonMaster.Instance.GetFlags().HasFlag(Flags.TeaPrepared) &&
             DungeonMaster.Instance.GetFlags().HasFlag(Flags.HasDrugs))
         {

@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 public class MapSystem : MonoBehaviour
 {
@@ -8,11 +9,16 @@ public class MapSystem : MonoBehaviour
     [SerializeField] private GameObject[] _cameraMan = new GameObject[4];
     [SerializeField] private GameObject[] _guard = new GameObject[4];
 
+    [SerializeField] private GameObject _scissors;
+    [SerializeField] private GameObject _weapon;
+    [SerializeField] private GameObject _drugs;
+    
     private NPCsFlags _currentNPCsFlags;
     private Flags _currentFlags;
     
     [SerializeField]
     private ScreenFade _screenFade;
+    
     
     public void UseMap(InputAction.CallbackContext ctx)
     {
@@ -31,6 +37,7 @@ public class MapSystem : MonoBehaviour
     {
         _currentFlags = DungeonMaster.Instance.GetFlags();
         _currentNPCsFlags = DungeonMaster.Instance.GetNPCsFlags();
+        updateItems();
         switch (DungeonMaster.Instance.GetCurrentTimePeriod()) //se actualizan tmb los periodos anteriores por si acaso no hubieras mirado el mapa en un periodo anterior que se actualice bien (tmb el switch no dejaba hacer los cases en orden inverso y sin breaks para que ocurrieran en cascada por algun motivo)
         {
             case TimePeriod.Morning:
@@ -122,5 +129,12 @@ public class MapSystem : MonoBehaviour
             else 
                 _guard[2].SetActive(true);
         }
+    }
+
+    private void updateItems()
+    {
+        _scissors.SetActive(_currentFlags.HasFlag(Flags.HasScissors));
+        _weapon.SetActive(_currentFlags.HasFlag(Flags.HasWeapon));
+        _drugs.SetActive(_currentFlags.HasFlag(Flags.HasDrugs) && !_currentFlags.HasFlag(Flags.TeaPosioned));
     }
 }
