@@ -1305,11 +1305,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.21
+      value: -7.91
       objectReference: {fileID: 0}
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.97
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 1803814188329612001, guid: d3e8ea4ecc2aad349a8111749a4c2408, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7976,9 +7976,9 @@ MonoBehaviour:
   - {fileID: 149513816}
   - {fileID: 990921642}
   _uiManager: {fileID: 318519484}
-  _currentFlags: 0
+  _currentFlags: 1
   _currentNPCsFlags: 0
-  _timePeriodLength: 5
+  _timePeriodLength: 1
 --- !u!4 &1366509959
 Transform:
   m_ObjectHideFlags: 0
@@ -9648,6 +9648,18 @@ PrefabInstance:
       propertyPath: '_afternoonAssets.Array.data[1]'
       value: 
       objectReference: {fileID: 4900000, guid: 8beab7902f8d0c247a8b89b51f003519, type: 3}
+    - target: {fileID: 5594508198053403188, guid: 3d0c278a0a1e0014a803fcf538f0a8c0, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5594508198053403188, guid: 3d0c278a0a1e0014a803fcf538f0a8c0, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5594508198053403188, guid: 3d0c278a0a1e0014a803fcf538f0a8c0, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7409935580757914692, guid: 3d0c278a0a1e0014a803fcf538f0a8c0, type: 3}
       propertyPath: m_Name
       value: Philly
@@ -10530,6 +10542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _flag: 8
   _disappearOnInteraction: 0
+  _killedSprite: {fileID: 3304043898227983073, guid: 52665fc2450226a45b86f24e4cef92eb, type: 3}
 --- !u!1 &2033845851
 GameObject:
   m_ObjectHideFlags: 0
