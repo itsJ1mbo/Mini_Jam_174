@@ -3099,6 +3099,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab1efefc1c4dd03418e845c2d2a47380, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _onTyperEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &642861015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6409,6 +6412,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab1efefc1c4dd03418e845c2d2a47380, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _onTyperEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1172255056
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,3 +1,4 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -56,6 +57,54 @@ public class Interactor4000 : MonoBehaviour
             GetComponent<PlayerMovement>().ToggleMove();
             DungeonMaster.Instance.ToggleTimer();
             g.StartDialogue();
+
+            switch (DungeonMaster.Instance.GetCurrentTimePeriod())
+            {
+                case TimePeriod.Morning:
+                    switch (_obj.name)
+                    {
+                        case "Philly":
+                            DungeonMaster.Instance.SetNPCsFlag(NPCsFlags.T_Morning);
+                            break;
+                        case "Willy":
+                            DungeonMaster.Instance.SetNPCsFlag(NPCsFlags.C_Morning);
+                            break;
+                        case "Gilly":
+                            DungeonMaster.Instance.SetNPCsFlag(NPCsFlags.G_Morning);
+                            break;
+                    }
+                    break;
+                case TimePeriod.Afternoon:
+                    switch (_obj.name)
+                    {
+                        case "Philly":
+                            DungeonMaster.Instance.SetNPCsFlag(NPCsFlags.T_Afternoon);
+                            break;
+                        case "Willy":
+                            DungeonMaster.Instance.SetNPCsFlag(NPCsFlags.C_Afternoon);
+                            break;
+                        case "Gilly":
+                            DungeonMaster.Instance.SetNPCsFlag(NPCsFlags.G_Afternoon);
+                            break;
+                    }
+                    break;
+                case TimePeriod.Evening:
+                    switch (_obj.name)
+                    {
+                        case "Philly":
+                            DungeonMaster.Instance.SetNPCsFlag(NPCsFlags.T_Evening);
+                            break;
+                        case "Willy":
+                            DungeonMaster.Instance.SetNPCsFlag(NPCsFlags.C_Evening);
+                            break;
+                        case "Gilly":
+                            DungeonMaster.Instance.SetNPCsFlag(NPCsFlags.G_Evening);
+                            break;
+                    }
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
         }
     }
 }
