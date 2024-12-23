@@ -34,7 +34,9 @@ public class Interactor4000 : MonoBehaviour
         {
             if (_obj.gameObject.TryGetComponent<Guion>(out Guion g))
                 Dialogue(g);
-            if(!_obj.GetComponent<Guion>() && _obj.GetComponent<FlagInteraction>())
+            if(!_obj.GetComponent<Guion>() && (_obj.GetComponent<FlagInteraction>() ||
+                                               _obj.GetComponent<TeaInteraction>() ||
+                                               _obj.GetComponent<EnergyInteraction>()))
                 _obj.GetComponent<FlagInteraction>().activateFlag();
         }
     }
